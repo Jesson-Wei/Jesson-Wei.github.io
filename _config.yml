@@ -10,21 +10,21 @@
 ############################
 
 # Name of website
-title: Rongzhe Wei's Personal Website
+title: My Website
 
 # Your name to show in the footer
-author: Rongzhe Wei
+author: Some Person
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  Publication: "aboutme"
-#   Resources:
-#     - Beautiful Jekyll: "https://beautifuljekyll.com"
-#     - Learn markdown: "https://www.markdowntutorial.com/"
-#   Author's home: "https://deanattali.com"
+  About Me: "aboutme"
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+  Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
@@ -32,7 +32,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/rongzhe_wei.jpg"
+avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -49,13 +49,13 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "wei397@purdue.edu"
-#   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-#   facebook: deanattali
-  github: Jesson-Wei
-#   twitter: daattali
-#   patreon: DeanAttali
-#   youtube: c/daattali
+  email: "someone@example.com"
+  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  facebook: deanattali
+  github: daattali
+  twitter: daattali
+  patreon: DeanAttali
+  youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -71,34 +71,33 @@ social-network-links:
 #  telegram: yourname
 #  calendly: yourname
 #  mastodon: instance.url/@username
- ORCID: 0000-0003-4920-8892
- google-scholar: "https://scholar.google.com/citations?hl=en&user=FTHUBdAAAAAJ"
+#  ORCID: your ORCID ID
+#  google-scholar: your google scholar
 #  discord: invite/invite_code or users/userid 
 #  kaggle: yourname
 #  hackerrank: yourname
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-# rss-description: This website is a virtual proof that I'm awesome
+rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
 # --- General options --- #
 ###########################
 
 # Select which social network share links to show in posts
-# share-links-active:
-#   twitter: true
-#   facebook: true
-#   linkedin: true
-#   vk: false
+share-links-active:
+  twitter: true
+  facebook: true
+  linkedin: true
+  vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-# url-pretty: "MyWebsite.com"
+url-pretty: "MyWebsite.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
-
 
 # Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: true
@@ -290,4 +289,3 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-

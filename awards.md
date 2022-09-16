@@ -1,7 +1,3 @@
----
-layout: page
----
-
 ### Awards and Honors
 ***
 1. **Zhufeng Scholarship** (established for “Pilot Scheme of Top-notch Talent Cultivation in Basic Disciplines”, Ministry of Education): **The First Prize** (Ranked First)

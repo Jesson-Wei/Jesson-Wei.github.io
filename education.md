@@ -4,7 +4,7 @@ title: Education & Experience
 subtitle: Google Scholar: [Link](https://scholar.google.com/citations?hl=en&tzom=240&user=FTHUBdAAAAAJ) 
 ---
 
-### Education:
+**<font size="5">Education:</font>**
 
 ***
 * **Purdue University.** 2021.08 -
@@ -14,7 +14,7 @@ Supervisor: Prof. Pan Li
 B.S. in the Honors Science Program (Mathematics)
 * **Tsinghua University High School** 2011.09 - 2017.07  
 
-### Experience:
+**<font size="5">Experience:</font>**
 
 ***
 * **Research Intern.** 2018.03 - 2020.01  

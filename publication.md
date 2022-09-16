@@ -4,7 +4,7 @@ title: Publication
 subtitle: Google Scholar: [Link](https://scholar.google.com/citations?hl=en&tzom=240&user=FTHUBdAAAAAJ)
 ---
 
-<font size=10>**Publication:**</font>
+<font size=15>**Publication:**</font>
 
 - **Rongzhe Wei**, Haoteng Yin, Junteng Jia, Austin R. Benson, Pan Li. (2022) *Understanding Non-linearity in Graph Neural Networks from the Bayesian-Inference Perspective.* In **NeurIPS'22**.
 - Yizhou Wang, Can Qin, **Rongzhe Wei**, Yi Xu, Yue Bai and Yun Fu. (2022) *Self-supervision Meets Adversarial Perturbation: A Novel Framework for Anomaly Detection.* In **CIKM'22**.

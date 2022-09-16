@@ -1,3 +1,9 @@
+---
+layout: page
+title: Education & Experience
+subtitle: Google Scholar: [Link](https://scholar.google.com/citations?hl=en&tzom=240&user=FTHUBdAAAAAJ)
+---
+
 ### Education:
 
 ***

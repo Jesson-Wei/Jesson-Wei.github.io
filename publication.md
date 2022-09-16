@@ -6,4 +6,4 @@ subtitle: Google Scholar: [Link](https://scholar.google.com/citations?hl=en&tzom
 
 ** Publication: **
 
-- **Rongzhe Wei**, Haoteng Yin, Junteng Jia, Austin R. Benson, Pan Li. (2022) Understanding Non-linearity in Graph Neural Networks from the Bayesian-Inference Perspective. In **NeurIPS'22**.
+- **Rongzhe Wei**, Haoteng Yin, Junteng Jia, Austin R. Benson, Pan Li. (2022) *Understanding Non-linearity in Graph Neural Networks from the Bayesian-Inference Perspective.* In **NeurIPS'22**.

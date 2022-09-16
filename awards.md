@@ -1,3 +1,9 @@
+---
+layout: page
+title: Awards, Honors and Activities
+subtitle: Google Scholar: [Link](https://scholar.google.com/citations?hl=en&tzom=240&user=FTHUBdAAAAAJ)
+---
+
 ### Awards and Honors
 ***
 1. **Zhufeng Scholarship** (established for “Pilot Scheme of Top-notch Talent Cultivation in Basic Disciplines”, Ministry of Education): **The First Prize** (Ranked First)

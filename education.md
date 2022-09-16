@@ -16,7 +16,7 @@ B.S. in the Honors Science Program (Mathematics)
 Supervisor: Qinghua Zheng (Vice President of XJTU; )  
 * **Exchange Student.** 2018.06 - 2018.08  
 **University of Alberta, Canada**  
-Manager: Yi Li  
+Supervisor: Yi Li  
 * **Research Intern.** 2019.12-2020.05  
 **Georgia Institute of Technology, USA**  
 Supervisor: Tuo Zhao & Le Song

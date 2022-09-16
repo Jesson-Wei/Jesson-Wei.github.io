@@ -6,7 +6,6 @@ subtitle: Google Scholar: [Link](https://scholar.google.com/citations?hl=en&tzom
 
 **<font size="5">Education:</font>**
 
-***
 * **Purdue University.** 2021.08 -
 Ph.D. in Computer Science
 Supervisor: Prof. Pan Li
@@ -16,7 +15,6 @@ B.S. in the Honors Science Program (Mathematics)
 
 **<font size="5">Experience:</font>**
 
-***
 * **Research Intern.** 2018.03 - 2020.01  
 **Tax Bigdata Team, Xi'an Jiaotong University, China**  
 Supervisor: Qinghua Zheng (Vice President of XJTU; )  

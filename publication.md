@@ -6,9 +6,9 @@ subtitle: Google Scholar: [Link](https://scholar.google.com/citations?hl=en&tzom
 
 <font size="5">Publication:</font>
 
+- **<u>Rongzhe Wei</u>**, Eleonora Kreacic, Haoyu Wang, Haoteng Yin, Eli Chien, Vamsi K. Potluru, Pan Li. (2023) *"On the Inherent Privacy Properties of Discrete Denoising Diffusion Models."* ***arXiv preprint arXiv:2310.15524***.
 - **<u>Rongzhe Wei</u>**, Haoteng Yin, Junteng Jia, Austin R. Benson, Pan Li. (2022) *"Understanding Non-linearity in Graph Neural Networks from the Bayesian-Inference Perspective."* In **NeurIPS'22**.
 - Yizhou Wang, Can Qin, **<u>Rongzhe Wei</u>**, Yi Xu, Yue Bai and Yun Fu. (2022) *"Self-supervision Meets Adversarial Perturbation: A Novel Framework for Anomaly Detection."* In **CIKM'22**.
-- **<u>Rongzhe Wei</u>**, Fa Zhang, Bo Dong, Qinghua Zheng. (2020) *"DWMD: Dimensional Weighted Orderwise Moment Discrepancy for Domain-specific Hidden Representation Matching."* ***arXiv preprint arXiv:2007.09312***.
 - Yingchao Wu, Bo Dong, Qinghua Zheng, **<u>Rongzhe Wei</u>**, Zhiwen Wang, Xuanya Li. (2020) *"A Novel Tax Evasion Detection Framework via Fused Transaction Network Representation."* In **COMPSAC'20**.
 - Jingyi An, Qinghua Zheng, **<u>Rongzhe Wei</u>**, Bo Dong, Xuanya Li. (2020) *"NEUD-TRI: network embedding based on upstream and downstream for transaction risk identification."* In **COMPSAC'20**.
 - Jingyi An, **<u>Rongzhe Wei</u>**, Zhichao Zha, Bo Dong. (2020) *"Dual Adversarial Networks for Land-Cover Classification."* In **COMPSAC'20**.

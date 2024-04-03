@@ -6,8 +6,8 @@ subtitle: Google Scholar: [Link](https://scholar.google.com/citations?hl=en&tzom
 
 **<font size="5">Education:</font>**
 
-* **Purdue University.** 2021.08 -
-Ph.D. in Computer Science
+* **Gatech.** Current
+Ph.D. in ECE
 Supervisor: Prof. Pan Li
 * **Xi'an Jiaotong University (XJTU).** 2017.09 - 2021.06
 B.S. in the Honors Science Program (Mathematics)

@@ -1,13 +1,18 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome to Rongzhe Wei's Personal Website"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I'm a fourth-year PhD student in machine learning at Georgia Institute of Technology, advised by [Prof. Pan Li](https://sites.google.com/view/panli-purdue/home). My current research interests include **Machine Learning Trustworthy (Privacy)** and **Large Lanugage Model on Relational Data**.
+
+Prior to that, I received my bachelor's degree in Honors Math from [Xi'an Jiaotong University](https://www.xjtu.edu.cn/).
+
+{: .dark-red-text}
+I'm actively seeking research internship opportunities for summer 2025 and would be grateful for any relevant information or recommendations.
 
 Rongzhe Wei's Personal Website
 ======

@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Your Name / Site Title"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Rongzhe Wei"
 description              : &description "personal description"
 url                      : "https://Jesson-Wei.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -21,7 +21,7 @@ repository               : "Jesson-Wei/Jesson-Wei.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/personal_photo_magic.png"
+  avatar           : "personal_photo_magic.png"
   name             : "Rongzhe Wei"
   pronouns         : # example: "she/her"  
   bio              : "Fourth-year Ph.D. Candidate in Machine Learning"

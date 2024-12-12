@@ -12,7 +12,7 @@ I'm a fourth-year PhD student in machine learning at Georgia Institute of Techno
 Prior to that, I received my bachelor's degree in Honors Math from [Xi'an Jiaotong University](https://www.xjtu.edu.cn/).
 
 {: .dark-red-text}
-I am actively seeking research internship opportunities for summer 2025 and would be grateful for any relevant information or <b><u>recommendations</u></b>.
+I am actively seeking <b><u>research internship opportunities for summer 2025</u></b> and would be grateful for any <b><u>relevant information</u></b> or <b><u>recommendations</u></b>.
 
 Rongzhe Wei's Personal Website
 ======

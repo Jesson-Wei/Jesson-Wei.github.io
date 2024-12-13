@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a fourth-year PhD student in machine learning at [Georgia Institute of Technology](https://www.gatech.edu/), advised by [Prof. Pan Li](https://sites.google.com/view/panli-purdue/home). My current research interests include **<span style="color:#FF0000;">Machine Learning Trustworthy (Privacy)</span>** and **<span style="color:#FF0000;">Large Lanugage Model on Relational Data</span>**.
+I'm a fourth-year PhD student in machine learning at [Georgia Institute of Technology](https://www.gatech.edu/), advised by [Prof. Pan Li](https://sites.google.com/view/panli-purdue/home). My current research interests include **<span style="color:#FF0000;">Machine Learning Trustworthy (Privacy)</span>**, **<span style="color:#FF0000;">Graph Learning Algorithms</span>** and **<span style="color:#FF0000;">Large Lanugage Model on Relational Data</span>**.
 
 Prior to that, I received my bachelor's degree in Honors Math from [Xi'an Jiaotong University](https://www.xjtu.edu.cn/).
 
@@ -36,6 +36,23 @@ I am actively seeking <b><u><span style="color:#FF0000;">research internship opp
   **Understanding Non-linearity in Graph Neural Networks from the Bayesian-Inference Perspective**  
   *In Advances in Neural Information Processing Systems* <span style="color:#8B0000;">(NeurIPS’22)</span>  
   [[PDF](https://arxiv.org/pdf/2207.11311)]
+
+---
+
+### <i class="fas fa-graduation-cap"></i> Education
+- **Georgia Institute of Technology (GaTech)** Present  
+  Ph.D. in Machine Learning  
+  Supervisor: [Prof. Pan Li](https://sites.google.com/view/panli-purdue/home)
+
+- **Xi’an Jiaotong University (XJTU)** 2017-2021  
+  B.S. in Mathematics and Applied Mathematics (National Honors Program - Qian Xuesen College)  
+  GPA: 3.87/4.00
+
+- **Georgia Institute of Technology (GaTech)** 2010 Spring  
+  Visiting Honors Student Program (School of Mathematics)  
+
+- **University of Alberta** 2017 Summer  
+  International Undergraduate Summer Enrichment Program in Mathematics  
 
 ---
 

@@ -48,7 +48,7 @@ I am actively seeking <b><u><span style="color:#FF0000;">research internship opp
   B.S. in Mathematics and Applied Mathematics (National Honors Program - Qian Xuesen College)  
   GPA: 3.87/4.00
 
-- **Georgia Institute of Technology (GaTech)** (2010 Spring)  
+- **Georgia Institute of Technology (GaTech)** (2020 Spring)  
   Visiting Honors Student Program (School of Mathematics)
 
 - **University of Alberta** (2017 Summer)  

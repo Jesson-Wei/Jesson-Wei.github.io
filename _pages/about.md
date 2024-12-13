@@ -16,6 +16,29 @@ I am actively seeking <b><u>research internship opportunities for summer 2025</u
 
 ---
 
+### Selected Publications
+- **Rongzhe Wei**, Mufei Li, Mohsen Ghassemi, Eleonora Kreacic, Yifan Li, Xiang Yue, Bo Li, Vamsi K. Potluru, Pan Li, and Eli Chien  
+  *Underestimated Privacy Risks for Minority Populations in Large Language Model Unlearning*  
+  *arXiv preprint arXiv:2412.08559, 2024*  
+  [[PDF](https://arxiv.org/pdf/2412.08559)]
+
+- **Rongzhe Wei**, Eli Chien, Pan Li.
+  *Differentially Private Graph Diffusion with Applications in Personalized PageRanks.*
+  *In Advances in Neural Information Processing Systems (NeurIPS’24)*
+  [[PDF](https://arxiv.org/pdf/2407.00077)]
+
+- **Rongzhe Wei**, Eleonora Kreačić, Haoyu Wang, Haoteng Yin, Eli Chien, Vamsi K Potluru, Pan Li.
+  *On the Inherent Privacy Properties of Discrete Denoising Diffusion Models.*
+  In *Transactions on Machine Learning Research (TMLR’24)*, Selected to *ICLR’25 Poster*
+  [[PDF](https://arxiv.org/pdf/2310.15524)]
+
+- **Rongzhe Wei**, Haoteng Yin, Junteng Jia, Austin R. Benson, Pan Li.
+  *Understanding Non-linearity in Graph Neural Networks from the Bayesian-Inference Perspective.*
+  *In Advances in Neural Information Processing Systems (NeurIPS’22)*
+  [[PDF](https://arxiv.org/pdf/2207.11311)]
+
+---
+
 ### Professional Services
 - **Conference Reviewer**: NeurIPS’22-24, ICML’24-25, ICLR’25, AISTATS’23-24, AAAI’24, LoG’22-24  
 - **Journal Reviewer**: *Computers and Mathematics with Applications*, TMLR  

@@ -39,17 +39,8 @@ I am actively seeking <b><u>research internship opportunities for summer 2025</u
 - **Travel Award**: NeurIPS 2022  
 - **Student Award**: 2019 IEEE International Conference on BigData  
 - **The First Prize of "Zhufeng" Scholarship** (Ministry of Education, "Pilot Scheme of Top-notch Talent Cultivation in Basic Disciplines")  
-  - 2019 – 2018  
-  - 2018 – 2019  
-  - 2019 – 2020  
-- **Outstanding Student Award**: Xi’an Jiaotong University  
-  - 2017 – 2018  
-  - 2018 – 2019  
-  - 2019 – 2020  
+- **Outstanding Student Award**: Xi’an Jiaotong University   
 - **First-class Scholarship**: Xi’an Jiaotong University  
-  - 2017 – 2018  
-  - 2018 – 2019  
-  - 2019 – 2020  
 
 ---
 

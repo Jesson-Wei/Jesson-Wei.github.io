@@ -18,24 +18,24 @@ I am actively seeking <b><u>research internship opportunities for summer 2025</u
 
 ### <i class="fas fa-book-open" style="color:#007bff;"></i> Selected Publications
 
-- **Rongzhe Wei**, Mufei Li, Mohsen Ghassemi, Eleonora Kreacic, Yifan Li, Xiang Yue, Bo Li, Vamsi K. Potluru, Pan Li, and Eli Chien  
-  *<span style="color:#007bff;">Underestimated Privacy Risks for Minority Populations in Large Language Model Unlearning</span>*  
-  <span style="color:#6c757d;">arXiv preprint arXiv:2412.08559, 2024</span>  
+- **<span style="color:#003366;">Rongzhe Wei</span>**, Mufei Li, Mohsen Ghassemi, Eleonora Kreacic, Yifan Li, Xiang Yue, Bo Li, Vamsi K. Potluru, Pan Li, and Eli Chien  
+  **Underestimated Privacy Risks for Minority Populations in Large Language Model Unlearning**  
+  <span style="color:#8B0000;">arXiv preprint</span> arXiv:2412.08559, 2024  
   [[PDF](https://arxiv.org/pdf/2412.08559)]
 
-- **Rongzhe Wei**, Eli Chien, Pan Li  
-  *<span style="color:#28a745;">Differentially Private Graph Diffusion with Applications in Personalized PageRanks</span>*  
-  <span style="color:#6c757d;">In Advances in Neural Information Processing Systems (NeurIPS’24)</span>  
+- **<span style="color:#003366;">Rongzhe Wei</span>**, Eli Chien, Pan Li  
+  **Differentially Private Graph Diffusion with Applications in Personalized PageRanks**  
+  <span style="color:#8B0000;">NeurIPS’24</span>  
   [[PDF](https://arxiv.org/pdf/2407.00077)]
 
-- **Rongzhe Wei**, Eleonora Kreačić, Haoyu Wang, Haoteng Yin, Eli Chien, Vamsi K Potluru, Pan Li  
-  *<span style="color:#ff6347;">On the Inherent Privacy Properties of Discrete Denoising Diffusion Models</span>*  
-  <span style="color:#6c757d;">In Transactions on Machine Learning Research (TMLR’24), Selected to ICLR’25 Poster</span>  
+- **<span style="color:#003366;">Rongzhe Wei</span>**, Eleonora Kreačić, Haoyu Wang, Haoteng Yin, Eli Chien, Vamsi K Potluru, Pan Li  
+  **On the Inherent Privacy Properties of Discrete Denoising Diffusion Models**  
+  <span style="color:#8B0000;">TMLR’24, Selected to ICLR’25 Poster</span>  
   [[PDF](https://arxiv.org/pdf/2310.15524)]
 
-- **Rongzhe Wei**, Haoteng Yin, Junteng Jia, Austin R. Benson, Pan Li  
-  *<span style="color:#ffc107;">Understanding Non-linearity in Graph Neural Networks from the Bayesian-Inference Perspective</span>*  
-  <span style="color:#6c757d;">In Advances in Neural Information Processing Systems (NeurIPS’22)</span>  
+- **<span style="color:#003366;">Rongzhe Wei</span>**, Haoteng Yin, Junteng Jia, Austin R. Benson, Pan Li  
+  **Understanding Non-linearity in Graph Neural Networks from the Bayesian-Inference Perspective**  
+  <span style="color:#8B0000;">NeurIPS’22</span>  
   [[PDF](https://arxiv.org/pdf/2207.11311)]
 
 ---

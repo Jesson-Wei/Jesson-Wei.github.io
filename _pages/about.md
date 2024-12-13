@@ -29,7 +29,7 @@ I am actively seeking <b><u>research internship opportunities for summer 2025</u
 
 - **Rongzhe Wei**, Eleonora Kreačić, Haoyu Wang, Haoteng Yin, Eli Chien, Vamsi K Potluru, Pan Li.  
   *On the Inherent Privacy Properties of Discrete Denoising Diffusion Models.*  
-  In *Transactions on Machine Learning Research (TMLR’24)*, Selected to *ICLR’25 Poster*  
+  In *Transactions on Machine Learning Research (TMLR’24)*, Selected to *ICLR’25* Poster  
   [[PDF](https://arxiv.org/pdf/2310.15524)]
 
 - **Rongzhe Wei**, Haoteng Yin, Junteng Jia, Austin R. Benson, Pan Li.  

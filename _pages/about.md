@@ -16,7 +16,7 @@ I am actively seeking <b><u>research internship opportunities for summer 2025</u
 
 ---
 
-### Selected Publications
+### <i class="fas fa-book-open" style="color:#007bff;"></i> Selected Publications
 - **Rongzhe Wei**, Mufei Li, Mohsen Ghassemi, Eleonora Kreacic, Yifan Li, Xiang Yue, Bo Li, Vamsi K. Potluru, Pan Li, and Eli Chien  
   *Underestimated Privacy Risks for Minority Populations in Large Language Model Unlearning*  
   *arXiv preprint arXiv:2412.08559, 2024*  

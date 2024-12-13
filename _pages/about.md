@@ -40,18 +40,18 @@ I am actively seeking <b><u><span style="color:#FF0000;">research internship opp
 ---
 
 ### <i class="fas fa-graduation-cap"></i> Education
-- **Georgia Institute of Technology (GaTech)** Present  
+- **Georgia Institute of Technology (GaTech)**   Present  
   Ph.D. in Machine Learning  
   Supervisor: [Prof. Pan Li](https://sites.google.com/view/panli-purdue/home)
 
-- **Xi’an Jiaotong University (XJTU)** 2017-2021  
+- **Xi’an Jiaotong University (XJTU)**    2017-2021  
   B.S. in Mathematics and Applied Mathematics (National Honors Program - Qian Xuesen College)  
   GPA: 3.87/4.00
 
-- **Georgia Institute of Technology (GaTech)** 2010 Spring  
+- **Georgia Institute of Technology (GaTech)**    2010 Spring  
   Visiting Honors Student Program (School of Mathematics)  
 
-- **University of Alberta** 2017 Summer  
+- **University of Alberta**     2017 Summer  
   International Undergraduate Summer Enrichment Program in Mathematics  
 
 ---

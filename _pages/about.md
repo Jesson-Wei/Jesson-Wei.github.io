@@ -20,7 +20,7 @@ I am actively seeking <b><u>research internship opportunities for summer 2025</u
 
 - **<span style="color:#003366;">Rongzhe Wei</span>**, <span style="color:#003366;">Mufei Li</span>, <span style="color:#003366;">Mohsen Ghassemi</span>, <span style="color:#003366;">Eleonora Kreacic</span>, <span style="color:#003366;">Yifan Li</span>, <span style="color:#003366;">Xiang Yue</span>, <span style="color:#003366;">Bo Li</span>, <span style="color:#003366;">Vamsi K. Potluru</span>, <span style="color:#003366;">Pan Li</span>, and <span style="color:#003366;">Eli Chien</span>  
   **Underestimated Privacy Risks for Minority Populations in Large Language Model Unlearning**  
-  *arXiv preprint* <span style="color:#8B0000;">(arXiv:2412.08559, 2024)</span>  
+  *arXiv preprint* <span style="color:#8B0000;">(arXiv:2412.08559)</span>  
   [[PDF](https://arxiv.org/pdf/2412.08559)]
 
 - **<span style="color:#003366;">Rongzhe Wei</span>**, <span style="color:#003366;">Eli Chien</span>, <span style="color:#003366;">Pan Li</span>  

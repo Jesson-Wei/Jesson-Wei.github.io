@@ -39,7 +39,7 @@ I am actively seeking <b><u><span style="color:#FF0000;">research internship opp
 
 ---
 
-### <i class="fas fa-graduation-cap" style="color:#007bff;"></i> Education
+### <i class="fas fa-graduation-cap" style="color:#6c757d;"></i> Education
 - **Georgia Institute of Technology (GaTech)** (Present)  
   Ph.D. in Machine Learning (ECE Department)  
   Supervisor: [Prof. Pan Li](https://sites.google.com/view/panli-purdue/home)

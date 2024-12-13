@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a fourth-year PhD student in machine learning at [Georgia Institute of Technology](https://www.gatech.edu/), advised by [Prof. Pan Li](https://sites.google.com/view/panli-purdue/home). My current research interests include **Machine Learning Trustworthy (Privacy)** and **Large Lanugage Model on Relational Data**.
+I'm a fourth-year PhD student in machine learning at [Georgia Institute of Technology](https://www.gatech.edu/), advised by [Prof. Pan Li](https://sites.google.com/view/panli-purdue/home). My current research interests include **<span style="color:#FF0000;">Machine Learning Trustworthy (Privacy)</span>** and **<span style="color:#FF0000;">Large Lanugage Model on Relational Data</span>**.
 
 Prior to that, I received my bachelor's degree in Honors Math from [Xi'an Jiaotong University](https://www.xjtu.edu.cn/).
 

@@ -11,8 +11,7 @@ I'm a fourth-year PhD student in machine learning at [Georgia Institute of Techn
 
 Prior to that, I received my bachelor's degree in Honors Math from [Xi'an Jiaotong University](https://www.xjtu.edu.cn/).
 
-{: .dark-red-text}
-I am actively seeking <b><u>research internship opportunities for summer 2025</u></b> and would be grateful for any relevant information or recommendations.
+I am actively seeking <b><u><span style="color:#FF0000;">research internship opportunities for summer 2025</span></u></b> and would be grateful for any relevant information or recommendations.
 
 ---
 

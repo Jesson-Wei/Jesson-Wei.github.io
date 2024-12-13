@@ -39,7 +39,7 @@ I am actively seeking <b><u>research internship opportunities for summer 2025</u
 
 ---
 
-### Professional Services
+### <i class="fas fa-briefcase" style="color:#28a745;"></i> Professional Services
 - **Conference Reviewer**: NeurIPS’22-24, ICML’24-25, ICLR’25, AISTATS’23-24, AAAI’24, LoG’22-24  
 - **Journal Reviewer**: *Computers and Mathematics with Applications*, TMLR  
 - **Graduate Teaching Assistant**:  
@@ -49,7 +49,7 @@ I am actively seeking <b><u>research internship opportunities for summer 2025</u
 
 ---
 
-### Industrial Experiences
+### <i class="fas fa-industry" style="color:#ff6347;"></i> Industrial Experiences
 - **JP Morgan Chase & Co.** — *Manhattan, NYC, NY*  
   *AI Research Intern*  
   *June 2023 – August 2023*  
@@ -58,7 +58,7 @@ I am actively seeking <b><u>research internship opportunities for summer 2025</u
 
 ---
 
-### Selected Honors & Scholarship
+### <i class="fas fa-award" style="color:#ffc107;"></i> Selected Honors & Scholarship
 - **Travel Award**: NeurIPS 2022  
 - **Student Award**: 2019 IEEE International Conference on BigData  
 - **The First Prize of "Zhufeng" Scholarship** (Ministry of Education, "Pilot Scheme of Top-notch Talent Cultivation in Basic Disciplines")  
@@ -67,7 +67,7 @@ I am actively seeking <b><u>research internship opportunities for summer 2025</u
 
 ---
 
-### Technical Skills
+### <i class="fas fa-tools" style="color:#6c757d;"></i> Technical Skills
 - **Languages**: Chinese (native), English  
 - **Programming Languages**: Python, C#, Matlab, C, SQL, HTML  
 - **Piano**: Band 9 out of 9 (Central Conservatory of Music) achieved at the age of 12, and won the 5th China Outstanding Talents Art Festival National Competition (Gold Award)  

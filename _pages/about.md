@@ -18,24 +18,24 @@ I am actively seeking <b><u>research internship opportunities for summer 2025</u
 
 ### <i class="fas fa-book-open" style="color:#007bff;"></i> Selected Publications
 
-- **<span style="color:#003366;">Rongzhe Wei</span>**, Mufei Li, Mohsen Ghassemi, Eleonora Kreacic, Yifan Li, Xiang Yue, Bo Li, Vamsi K. Potluru, Pan Li, and Eli Chien  
+- **<span style="color:#003366;">Rongzhe Wei</span>**, <span style="color:#003366;">Mufei Li</span>, <span style="color:#003366;">Mohsen Ghassemi</span>, <span style="color:#003366;">Eleonora Kreacic</span>, <span style="color:#003366;">Yifan Li</span>, <span style="color:#003366;">Xiang Yue</span>, <span style="color:#003366;">Bo Li</span>, <span style="color:#003366;">Vamsi K. Potluru</span>, <span style="color:#003366;">Pan Li</span>, and <span style="color:#003366;">Eli Chien</span>  
   **Underestimated Privacy Risks for Minority Populations in Large Language Model Unlearning**  
-  <span style="color:#8B0000;">arXiv preprint</span> arXiv:2412.08559, 2024  
+  *arXiv preprint* <span style="color:#8B0000;">(arXiv:2412.08559, 2024)</span>  
   [[PDF](https://arxiv.org/pdf/2412.08559)]
 
-- **<span style="color:#003366;">Rongzhe Wei</span>**, Eli Chien, Pan Li  
+- **<span style="color:#003366;">Rongzhe Wei</span>**, <span style="color:#003366;">Eli Chien</span>, <span style="color:#003366;">Pan Li</span>  
   **Differentially Private Graph Diffusion with Applications in Personalized PageRanks**  
-  <span style="color:#8B0000;">NeurIPS’24</span>  
+  *In Advances in Neural Information Processing Systems* <span style="color:#8B0000;">(NeurIPS’24)</span>  
   [[PDF](https://arxiv.org/pdf/2407.00077)]
 
-- **<span style="color:#003366;">Rongzhe Wei</span>**, Eleonora Kreačić, Haoyu Wang, Haoteng Yin, Eli Chien, Vamsi K Potluru, Pan Li  
+- **<span style="color:#003366;">Rongzhe Wei</span>**, <span style="color:#003366;">Eleonora Kreačić</span>, <span style="color:#003366;">Haoyu Wang</span>, <span style="color:#003366;">Haoteng Yin</span>, <span style="color:#003366;">Eli Chien</span>, <span style="color:#003366;">Vamsi K Potluru</span>, <span style="color:#003366;">Pan Li</span>  
   **On the Inherent Privacy Properties of Discrete Denoising Diffusion Models**  
-  <span style="color:#8B0000;">TMLR’24, Selected to ICLR’25 Poster</span>  
+  *In Transactions on Machine Learning Research*, Selected to *ICLR’25 Poster* <span style="color:#8B0000;">(TMLR’24)</span>  
   [[PDF](https://arxiv.org/pdf/2310.15524)]
 
-- **<span style="color:#003366;">Rongzhe Wei</span>**, Haoteng Yin, Junteng Jia, Austin R. Benson, Pan Li  
+- **<span style="color:#003366;">Rongzhe Wei</span>**, <span style="color:#003366;">Haoteng Yin</span>, <span style="color:#003366;">Junteng Jia</span>, <span style="color:#003366;">Austin R. Benson</span>, <span style="color:#003366;">Pan Li</span>  
   **Understanding Non-linearity in Graph Neural Networks from the Bayesian-Inference Perspective**  
-  <span style="color:#8B0000;">NeurIPS’22</span>  
+  *In Advances in Neural Information Processing Systems* <span style="color:#8B0000;">(NeurIPS’22)</span>  
   [[PDF](https://arxiv.org/pdf/2207.11311)]
 
 ---

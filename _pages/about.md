@@ -30,7 +30,7 @@ I am actively seeking <b><u>research internship opportunities for summer 2025</u
 
 - **<span style="color:#003366;">Rongzhe Wei</span>**, <span style="color:#003366;">Eleonora Kreačić</span>, <span style="color:#003366;">Haoyu Wang</span>, <span style="color:#003366;">Haoteng Yin</span>, <span style="color:#003366;">Eli Chien</span>, <span style="color:#003366;">Vamsi K Potluru</span>, <span style="color:#003366;">Pan Li</span>  
   **On the Inherent Privacy Properties of Discrete Denoising Diffusion Models**  
-  *In Transactions on Machine Learning Research*, Selected to *ICLR’25 Poster* <span style="color:#8B0000;">(TMLR’24)</span>  
+  *In Transactions on Machine Learning Research* <span style="color:#8B0000;">(TMLR’24)</span>  , Selected to <span style="color:#8B0000;">ICLR’25</span> Poster
   [[PDF](https://arxiv.org/pdf/2310.15524)]
 
 - **<span style="color:#003366;">Rongzhe Wei</span>**, <span style="color:#003366;">Haoteng Yin</span>, <span style="color:#003366;">Junteng Jia</span>, <span style="color:#003366;">Austin R. Benson</span>, <span style="color:#003366;">Pan Li</span>  

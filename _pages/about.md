@@ -22,7 +22,7 @@ I am actively seeking <b><u>research internship opportunities for summer 2025</u
 - **Graduate Teaching Assistant**:  
   - ECE 6720 Convex Optimization (Graduate Level)  
   - ECE 3077 Introduction to Probability and Statistics for ECEs  
-  - ECE 8003 Conversational AI  
+  - ECE 8003 Conversational AI (Graduate Level) 
 
 ---
 

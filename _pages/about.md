@@ -22,19 +22,19 @@ I am actively seeking <b><u>research internship opportunities for summer 2025</u
   *arXiv preprint arXiv:2412.08559, 2024*  
   [[PDF](https://arxiv.org/pdf/2412.08559)]
 
-- **Rongzhe Wei**, Eli Chien, Pan Li.
-  *Differentially Private Graph Diffusion with Applications in Personalized PageRanks.*
-  *In Advances in Neural Information Processing Systems (NeurIPS’24)*
+- **Rongzhe Wei**, Eli Chien, Pan Li.  
+  *Differentially Private Graph Diffusion with Applications in Personalized PageRanks.*  
+  *In Advances in Neural Information Processing Systems (NeurIPS’24)*  
   [[PDF](https://arxiv.org/pdf/2407.00077)]
 
-- **Rongzhe Wei**, Eleonora Kreačić, Haoyu Wang, Haoteng Yin, Eli Chien, Vamsi K Potluru, Pan Li.
-  *On the Inherent Privacy Properties of Discrete Denoising Diffusion Models.*
-  In *Transactions on Machine Learning Research (TMLR’24)*, Selected to *ICLR’25 Poster*
+- **Rongzhe Wei**, Eleonora Kreačić, Haoyu Wang, Haoteng Yin, Eli Chien, Vamsi K Potluru, Pan Li.  
+  *On the Inherent Privacy Properties of Discrete Denoising Diffusion Models.*  
+  In *Transactions on Machine Learning Research (TMLR’24)*, Selected to *ICLR’25 Poster*  
   [[PDF](https://arxiv.org/pdf/2310.15524)]
 
-- **Rongzhe Wei**, Haoteng Yin, Junteng Jia, Austin R. Benson, Pan Li.
-  *Understanding Non-linearity in Graph Neural Networks from the Bayesian-Inference Perspective.*
-  *In Advances in Neural Information Processing Systems (NeurIPS’22)*
+- **Rongzhe Wei**, Haoteng Yin, Junteng Jia, Austin R. Benson, Pan Li.  
+  *Understanding Non-linearity in Graph Neural Networks from the Bayesian-Inference Perspective.*  
+  *In Advances in Neural Information Processing Systems (NeurIPS’22)*  
   [[PDF](https://arxiv.org/pdf/2207.11311)]
 
 ---

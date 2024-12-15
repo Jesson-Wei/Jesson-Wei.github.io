@@ -61,14 +61,12 @@ layout: compress
       background-color: #fff;
       box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
       overflow-y: auto;
-      transform: translateX(-100%); /* Initially hidden */
+      z-index: 1000;
+      transform: translateX(0); /* Always visible for now */
       transition: transform 0.3s ease-in-out;
     }
 
-    .sidebar.show {
-      transform: translateX(0); /* Slide in */
-    }
-
+    /* Content Styling */
     .content {
       margin-left: 300px; /* Adjust to match sidebar width */
     }
@@ -76,11 +74,6 @@ layout: compress
     /* Hide Hero Section on Non-Home Pages */
     .not-home .hero {
       display: none;
-    }
-
-    /* Ensure sidebar visibility on scroll */
-    .content.with-sidebar {
-      margin-left: 300px; /* Sidebar visible */
     }
   </style>
 </head>
@@ -126,17 +119,10 @@ layout: compress
       });
     }
 
-    // Show sidebar on scroll
-    document.addEventListener("scroll", function () {
+    // Ensure Sidebar Always Visible for Testing
+    document.addEventListener("DOMContentLoaded", function () {
       const sidebar = document.getElementById("sidebar");
-      const content = document.querySelector(".content");
-      if (window.scrollY > window.innerHeight) {
-        sidebar.classList.add("show");
-        content.classList.add("with-sidebar");
-      } else {
-        sidebar.classList.remove("show");
-        content.classList.remove("with-sidebar");
-      }
+      sidebar.style.transform = "translateX(0)";
     });
   </script>
 </body>

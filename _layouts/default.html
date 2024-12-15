@@ -10,112 +10,47 @@ layout: compress
   {% include head.html %}
   {% include head/custom.html %}
   <style>
-    /* Body Styling */
-    body {
-      background: linear-gradient(to bottom, #f8f9fa, #ffffff);
-      color: #333;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-    }
-
-    a {
-      color: #007bff;
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: #0056b3;
-      text-decoration: underline;
-    }
-
-    /* Hero Section Styling */
-    .hero {
-      background: url('images/wallpaper.png') no-repeat center center;
-      background-size: cover;
-      height: 100vh; /* Full page height */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
-      text-align: center;
+    /* Ensure sidebar doesn't overlap */
+    .sidebar {
+      z-index: 10;
       position: relative;
     }
 
-    .hero h1 {
-      font-size: 3rem;
-      font-weight: bold;
-      margin: 0;
+    /* Hero section stays behind sidebar */
+    .hero {
+      z-index: 1;
+      position: relative;
     }
 
-    .hero p {
-      font-size: 1.5rem;
-      margin: 10px 0;
-    }
-
-    .scroll-button {
-      position: absolute;
-      bottom: 20px;
-      left: 50%;
-      transform: translateX(-50%);
-      background: #007bff;
-      color: #fff;
-      padding: 10px 20px;
-      font-size: 1rem;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background 0.3s ease;
-    }
-
-    .scroll-button:hover {
-      background: #0056b3;
-    }
-
-    /* Content Section Styling */
+    /* Add padding to prevent content overlap */
     .content {
-      margin-top: -20px;
-      background: #fff;
-      padding: 20px;
-    }
-
-    footer {
-      text-align: center;
-      background: #333;
-      color: #fff;
-      padding: 10px 0;
-    }
-
-    footer a {
-      color: #fff;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
+      margin-top: 20px; /* Adjust to fine-tune spacing */
     }
   </style>
 </head>
 <body>
+  <!-- Conditional Header -->
+  {% unless page.layout == "publications" %}
   <header>
     {% include browser-upgrade.html %}
     {% include masthead.html %}
   </header>
+  {% endunless %}
 
   <!-- Hero Section -->
   <div class="hero">
     <div>
       <h1>Welcome to Rongzhe Wei's Personal Website</h1>
       <p>PhD Candidate in Machine Learning | Georgia Institute of Technology</p>
-      <button class="scroll-button" onclick="scrollToContent()">Scroll Down</button>
     </div>
   </div>
 
   <!-- Main Content -->
-  <main class="content" id="main-content">
+  <main class="content">
     {{ content }}
   </main>
 
+  <!-- Footer -->
   <div class="page__footer">
     <footer>
       {% include footer/custom.html %}
@@ -124,10 +59,5 @@ layout: compress
   </div>
 
   {% include scripts.html %}
-  <script>
-    function scrollToContent() {
-      document.getElementById('main-content').scrollIntoView({ behavior: 'smooth' });
-    }
-  </script>
 </body>
 </html>

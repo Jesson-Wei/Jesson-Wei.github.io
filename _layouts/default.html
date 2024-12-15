@@ -10,7 +10,7 @@ layout: compress
   {% include head.html %}
   {% include head/custom.html %}
   <style>
-    /* Add your custom styles here */
+    /* Body Styling */
     body {
       background: linear-gradient(to bottom, #f8f9fa, #ffffff);
       color: #333;
@@ -32,29 +32,39 @@ layout: compress
 
     /* Hero Section Styling */
     .hero {
-      background: url('images/logo.png') no-repeat center center;
+      background: url('images/wallpaper.png') no-repeat center center;
       background-size: cover;
-      height: 60vh; /* Reduced height */
+      height: 40vh; /* Reduced height */
       display: flex;
       align-items: center;
       justify-content: center;
       color: #fff;
       text-align: center;
       padding: 20px;
+      z-index: 1; /* Ensures the hero is above other content */
+      position: relative;
     }
 
     .hero h1 {
-      font-size: 2.5rem; /* Adjusted font size for balance */
+      font-size: 2rem; /* Adjusted for smaller height */
       font-weight: bold;
       margin: 0;
     }
 
     .hero p {
-      font-size: 1.2rem;
+      font-size: 1rem;
       margin-top: 10px;
     }
 
-    /* Footer Styling */
+    /* Below Hero Section Styling */
+    .content {
+      z-index: 0; /* Ensures content appears below the hero */
+      margin-top: -20px; /* Ensures smooth overlap */
+      position: relative;
+      background: #fff;
+      padding: 20px;
+    }
+
     footer {
       text-align: center;
       background: #333;
@@ -85,7 +95,8 @@ layout: compress
     </div>
   </div>
 
-  <main>
+  <!-- Main Content -->
+  <main class="content">
     {{ content }}
   </main>
 

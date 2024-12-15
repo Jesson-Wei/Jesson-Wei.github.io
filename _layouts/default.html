@@ -10,12 +10,7 @@ layout: compress
   {% include head.html %}
   {% include head/custom.html %}
   <style>
-    /* Hide sidebar in hero section on the homepage */
-    .home .sidebar {
-      display: none;
-    }
-
-    /* Adjust hero section to cover the entire page width */
+    /* Hero Section Styling */
     .hero {
       background: url('images/wallpaper.png') no-repeat center center;
       background-size: cover;
@@ -40,7 +35,7 @@ layout: compress
       margin-top: 10px;
     }
 
-    /* Scroll down button styling */
+    /* Scroll Button */
     .scroll-btn {
       margin-top: 20px;
       background-color: #007bff;
@@ -56,7 +51,18 @@ layout: compress
       background-color: #0056b3;
     }
 
-    /* Hide header content on non-home pages */
+    /* Sidebar initially hidden */
+    .sidebar {
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    /* Show sidebar after scrolling */
+    .sidebar.show {
+      opacity: 1;
+    }
+
+    /* Hide Hero Section on Non-Home Pages */
     .not-home .hero {
       display: none;
     }
@@ -76,6 +82,11 @@ layout: compress
       <button class="scroll-btn" onclick="scrollToContent()">Scroll Down</button>
     </div>
   </div>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    {% include sidebar.html %}
+  </aside>
 
   <!-- Main Content -->
   <main class="content">
@@ -98,6 +109,16 @@ layout: compress
         behavior: 'smooth'
       });
     }
+
+    // Show sidebar on scroll
+    document.addEventListener("scroll", function () {
+      const sidebar = document.querySelector(".sidebar");
+      if (window.scrollY > window.innerHeight * 0.5) {
+        sidebar.classList.add("show");
+      } else {
+        sidebar.classList.remove("show");
+      }
+    });
   </script>
 </body>
 </html>

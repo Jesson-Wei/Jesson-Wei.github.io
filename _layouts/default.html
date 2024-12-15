@@ -56,7 +56,7 @@ layout: compress
       position: fixed;
       top: 0;
       left: 0;
-      width: 300px; /* Adjust the width of the sidebar */
+      width: 300px;
       height: 100%;
       background-color: #fff;
       box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
@@ -76,6 +76,11 @@ layout: compress
     /* Hide Hero Section on Non-Home Pages */
     .not-home .hero {
       display: none;
+    }
+
+    /* Ensure sidebar visibility on scroll */
+    .content.with-sidebar {
+      margin-left: 300px; /* Sidebar visible */
     }
   </style>
 </head>
@@ -100,7 +105,7 @@ layout: compress
   </aside>
 
   <!-- Main Content -->
-  <main class="content">
+  <main class="content" id="content">
     {{ content }}
   </main>
 
@@ -116,7 +121,7 @@ layout: compress
   <script>
     function scrollToContent() {
       window.scrollTo({
-        top: document.querySelector('.content').offsetTop,
+        top: document.getElementById('content').offsetTop,
         behavior: 'smooth'
       });
     }
@@ -124,10 +129,13 @@ layout: compress
     // Show sidebar on scroll
     document.addEventListener("scroll", function () {
       const sidebar = document.getElementById("sidebar");
+      const content = document.querySelector(".content");
       if (window.scrollY > window.innerHeight) {
         sidebar.classList.add("show");
+        content.classList.add("with-sidebar");
       } else {
         sidebar.classList.remove("show");
+        content.classList.remove("with-sidebar");
       }
     });
   </script>

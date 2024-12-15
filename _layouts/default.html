@@ -20,26 +20,21 @@ layout: compress
       justify-content: center;
       color: #fff;
       text-align: center;
-      position: relative;
-      z-index: 1;
     }
 
     .hero h1 {
       font-size: 3rem;
       font-weight: bold;
-      margin: 0;
     }
 
     .hero p {
       font-size: 1.5rem;
-      margin-top: 10px;
     }
 
-    /* Scroll Button */
     .scroll-btn {
       margin-top: 20px;
       background-color: #007bff;
-      color: #fff;
+      color: white;
       padding: 10px 20px;
       border: none;
       border-radius: 5px;
@@ -56,24 +51,26 @@ layout: compress
       position: fixed;
       top: 0;
       left: 0;
-      width: 300px; /* Adjust the width of the sidebar */
+      width: 300px;
       height: 100%;
-      background-color: #fff;
+      background-color: #f8f9fa;
       box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-      overflow-y: auto;
-      transform: translateX(-100%); /* Initially hidden */
-      transition: transform 0.3s ease-in-out;
+      transform: translateX(-100%);
+      opacity: 0;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+      z-index: 999;
     }
 
     .sidebar.show {
-      transform: translateX(0); /* Slide in */
+      transform: translateX(0);
+      opacity: 1;
     }
 
     .content {
-      margin-left: 300px; /* Adjust to match sidebar width */
+      margin-left: 300px;
     }
 
-    /* Hide Hero Section on Non-Home Pages */
+    /* Hide Hero on Non-Home Pages */
     .not-home .hero {
       display: none;
     }
@@ -81,7 +78,6 @@ layout: compress
 </head>
 <body class="{% if page.url == '/' %}home{% else %}not-home{% endif %}">
   <header>
-    {% include browser-upgrade.html %}
     {% include masthead.html %}
   </header>
 
@@ -95,21 +91,16 @@ layout: compress
   </div>
 
   <!-- Sidebar -->
-  <aside class="sidebar" id="sidebar">
-    {% include sidebar.html %}
-  </aside>
+  {% include sidebar.html %}
 
   <!-- Main Content -->
   <main class="content">
     {{ content }}
   </main>
 
-  <div class="page__footer">
-    <footer>
-      {% include footer/custom.html %}
-      {% include footer.html %}
-    </footer>
-  </div>
+  <footer>
+    {% include footer.html %}
+  </footer>
 
   {% include scripts.html %}
 
@@ -123,7 +114,7 @@ layout: compress
 
     // Show sidebar on scroll
     document.addEventListener("scroll", function () {
-      const sidebar = document.getElementById("sidebar");
+      const sidebar = document.querySelector(".sidebar");
       if (window.scrollY > window.innerHeight) {
         sidebar.classList.add("show");
       } else {

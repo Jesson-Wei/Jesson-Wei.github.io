@@ -4,28 +4,116 @@ layout: compress
 
 {% include base_path %}
 
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+<!DOCTYPE html>
+<html lang="{{ site.locale | slice: 0, 2 }}" class="no-js">
+<head>
+  {% include head.html %}
+  {% include head/custom.html %}
+  <style>
+    /* Add your custom styles here */
+    body {
+      background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+      color: #333;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
 
-  <body>
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
 
+    a:hover {
+      color: #0056b3;
+      text-decoration: underline;
+    }
+
+    /* Hero Section Styling */
+    .hero {
+      background: url('images/logo.png') no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+    }
+
+    .hero a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: rgba(255, 255, 255, 0.8);
+      color: #007bff;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .hero a:hover {
+      background: rgba(255, 255, 255, 1);
+      color: #0056b3;
+    }
+
+    /* Footer Styling */
+    footer {
+      text-align: center;
+      background: #333;
+      color: #fff;
+      padding: 10px 0;
+    }
+
+    footer a {
+      color: #fff;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
     {% include browser-upgrade.html %}
     {% include masthead.html %}
+  </header>
 
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
+  <!-- Hero Section -->
+  <div class="hero">
+    <div>
+      <h1>Welcome to Rongzhe Wei's Personal Website</h1>
+      <p>PhD Candidate in Machine Learning | Georgia Institute of Technology</p>
+      <a href="#about">Learn More</a>
     </div>
+  </div>
 
-    {% include scripts.html %}
+  <main>
+    {{ content }}
+  </main>
 
-  </body>
+  <div class="page__footer">
+    <footer>
+      {% include footer/custom.html %}
+      {% include footer.html %}
+    </footer>
+  </div>
+
+  {% include scripts.html %}
+</body>
 </html>

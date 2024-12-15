@@ -4,126 +4,28 @@ layout: compress
 
 {% include base_path %}
 
-<!DOCTYPE html>
-<html lang="{{ site.locale | slice: 0, 2 }}" class="no-js">
-<head>
-  {% include head.html %}
-  {% include head/custom.html %}
-  <style>
-    /* Hero Section Styling */
-    .hero {
-      background: url('images/wallpaper.png') no-repeat center center;
-      background-size: cover;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
-      text-align: center;
-      position: relative;
-      z-index: 1;
-    }
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
-    .hero h1 {
-      font-size: 3rem;
-      font-weight: bold;
-      margin: 0;
-    }
+  <body>
 
-    .hero p {
-      font-size: 1.5rem;
-      margin-top: 10px;
-    }
-
-    /* Scroll Button */
-    .scroll-btn {
-      margin-top: 20px;
-      background-color: #007bff;
-      color: #fff;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 1rem;
-    }
-
-    .scroll-btn:hover {
-      background-color: #0056b3;
-    }
-
-    /* Sidebar Styling */
-    .sidebar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 300px;
-      height: 100%;
-      background-color: #fff;
-      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-      overflow-y: auto;
-      z-index: 1000;
-      transform: translateX(0); /* Always visible for now */
-      transition: transform 0.3s ease-in-out;
-    }
-
-    /* Content Styling */
-    .content {
-      margin-left: 300px; /* Adjust to match sidebar width */
-    }
-
-    /* Hide Hero Section on Non-Home Pages */
-    .not-home .hero {
-      display: none;
-    }
-  </style>
-</head>
-<body class="{% if page.url == '/' %}home{% else %}not-home{% endif %}">
-  <header>
     {% include browser-upgrade.html %}
     {% include masthead.html %}
-  </header>
 
-  <!-- Hero Section -->
-  <div class="hero">
-    <div>
-      <h1>Welcome to Rongzhe Wei's Personal Website</h1>
-      <p>PhD Candidate in Machine Learning | Georgia Institute of Technology</p>
-      <button class="scroll-btn" onclick="scrollToContent()">Scroll Down</button>
-    </div>
-  </div>
-
-  <!-- Sidebar -->
-  <aside class="sidebar" id="sidebar">
-    {% include sidebar.html %}
-  </aside>
-
-  <!-- Main Content -->
-  <main class="content" id="content">
     {{ content }}
-  </main>
 
-  <div class="page__footer">
-    <footer>
-      {% include footer/custom.html %}
-      {% include footer.html %}
-    </footer>
-  </div>
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
 
-  {% include scripts.html %}
+    {% include scripts.html %}
 
-  <script>
-    function scrollToContent() {
-      window.scrollTo({
-        top: document.getElementById('content').offsetTop,
-        behavior: 'smooth'
-      });
-    }
-
-    // Ensure Sidebar Always Visible for Testing
-    document.addEventListener("DOMContentLoaded", function () {
-      const sidebar = document.getElementById("sidebar");
-      sidebar.style.transform = "translateX(0)";
-    });
-  </script>
-</body>
+  </body>
 </html>

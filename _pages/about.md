@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to Rongzhe Wei's Personal Website"
+title: "Welcome to Rongzhe Wei (魏容哲)'s Personal Website"
 author_profile: true
 redirect_from: 
   - /about/

@@ -10,30 +10,6 @@ layout: compress
   {% include head.html %}
   {% include head/custom.html %}
   <style>
-    /* Sidebar Styling */
-    .sidebar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 300px;
-      height: 100%;
-      background-color: #f8f9fa;
-      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-      transform: translateX(-100%);
-      opacity: 0;
-      transition: transform 0.3s ease, opacity 0.3s ease;
-      z-index: 999;
-    }
-
-    .sidebar.show {
-      transform: translateX(0);
-      opacity: 1;
-    }
-
-    .content {
-      margin-left: 300px;
-    }
-
     /* Hero Section Styling */
     .hero {
       background: url('images/wallpaper.png') no-repeat center center;
@@ -44,23 +20,24 @@ layout: compress
       justify-content: center;
       color: #fff;
       text-align: center;
+      position: relative;
+      z-index: 1;
     }
 
     .hero h1 {
       font-size: 3rem;
       font-weight: bold;
+      margin: 0;
     }
 
     .hero p {
       font-size: 1.5rem;
+      margin-top: 10px;
     }
 
-    /* Scroll Down Button Styling */
-    .scroll-down {
-      position: absolute;
-      bottom: 20px;
-      left: 50%;
-      transform: translateX(-50%);
+    /* Scroll Button */
+    .scroll-btn {
+      margin-top: 20px;
       background-color: #007bff;
       color: #fff;
       padding: 10px 20px;
@@ -70,53 +47,89 @@ layout: compress
       font-size: 1rem;
     }
 
-    .scroll-down:hover {
+    .scroll-btn:hover {
       background-color: #0056b3;
+    }
+
+    /* Sidebar Styling */
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 300px; /* Adjust the width of the sidebar */
+      height: 100%;
+      background-color: #fff;
+      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+      overflow-y: auto;
+      transform: translateX(-100%); /* Initially hidden */
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .sidebar.show {
+      transform: translateX(0); /* Slide in */
+    }
+
+    .content {
+      margin-left: 300px; /* Adjust to match sidebar width */
+    }
+
+    /* Hide Hero Section on Non-Home Pages */
+    .not-home .hero {
+      display: none;
     }
   </style>
 </head>
-<body>
+<body class="{% if page.url == '/' %}home{% else %}not-home{% endif %}">
   <header>
+    {% include browser-upgrade.html %}
     {% include masthead.html %}
   </header>
 
   <!-- Hero Section -->
   <div class="hero">
-    <h1>Welcome to Rongzhe Wei's Personal Website</h1>
-    <p>PhD Candidate in Machine Learning | Georgia Institute of Technology</p>
-    <button class="scroll-down" onclick="scrollToContent()">Scroll Down</button>
+    <div>
+      <h1>Welcome to Rongzhe Wei's Personal Website</h1>
+      <p>PhD Candidate in Machine Learning | Georgia Institute of Technology</p>
+      <button class="scroll-btn" onclick="scrollToContent()">Scroll Down</button>
+    </div>
   </div>
 
   <!-- Sidebar -->
-  {% include sidebar.html %}
+  <aside class="sidebar" id="sidebar">
+    {% include sidebar.html %}
+  </aside>
 
   <!-- Main Content -->
   <main class="content">
     {{ content }}
   </main>
 
-  <footer>
-    {% include footer.html %}
-  </footer>
+  <div class="page__footer">
+    <footer>
+      {% include footer/custom.html %}
+      {% include footer.html %}
+    </footer>
+  </div>
+
+  {% include scripts.html %}
 
   <script>
-    // Sidebar visibility logic
+    function scrollToContent() {
+      window.scrollTo({
+        top: document.querySelector('.content').offsetTop,
+        behavior: 'smooth'
+      });
+    }
+
+    // Show sidebar on scroll
     document.addEventListener("scroll", function () {
-      const sidebar = document.querySelector(".sidebar");
+      const sidebar = document.getElementById("sidebar");
       if (window.scrollY > window.innerHeight) {
         sidebar.classList.add("show");
       } else {
         sidebar.classList.remove("show");
       }
     });
-
-    // Scroll Down Button Logic
-    function scrollToContent() {
-      window.scrollTo({
-        top: window.innerHeight,
-        behavior: "smooth",
-      });
-    }
   </script>
 </body>
 </html>

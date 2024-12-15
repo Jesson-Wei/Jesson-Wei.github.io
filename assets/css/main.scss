@@ -39,3 +39,24 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+// Add your custom styles below
+
+body {
+  background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+  color: #333; // Optional: Ensures good text contrast
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; // Optional: Sets a clean font
+  line-height: 1.6; // Optional: Improves text readability
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #007bff; // Matches the blue icon color
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3; // Darker blue on hover
+  text-decoration: underline;
+}

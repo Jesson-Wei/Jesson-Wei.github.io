@@ -51,15 +51,26 @@ layout: compress
       background-color: #0056b3;
     }
 
-    /* Sidebar initially hidden */
+    /* Sidebar Styling */
     .sidebar {
-      opacity: 0;
-      transition: opacity 0.5s ease-in-out;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 300px; /* Adjust the width of the sidebar */
+      height: 100%;
+      background-color: #fff;
+      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+      overflow-y: auto;
+      transform: translateX(-100%); /* Initially hidden */
+      transition: transform 0.3s ease-in-out;
     }
 
-    /* Show sidebar after scrolling */
     .sidebar.show {
-      opacity: 1;
+      transform: translateX(0); /* Slide in */
+    }
+
+    .content {
+      margin-left: 300px; /* Adjust to match sidebar width */
     }
 
     /* Hide Hero Section on Non-Home Pages */
@@ -84,7 +95,7 @@ layout: compress
   </div>
 
   <!-- Sidebar -->
-  <aside class="sidebar">
+  <aside class="sidebar" id="sidebar">
     {% include sidebar.html %}
   </aside>
 
@@ -112,8 +123,8 @@ layout: compress
 
     // Show sidebar on scroll
     document.addEventListener("scroll", function () {
-      const sidebar = document.querySelector(".sidebar");
-      if (window.scrollY > window.innerHeight * 0.5) {
+      const sidebar = document.getElementById("sidebar");
+      if (window.scrollY > window.innerHeight) {
         sidebar.classList.add("show");
       } else {
         sidebar.classList.remove("show");

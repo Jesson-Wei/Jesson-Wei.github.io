@@ -10,42 +10,6 @@ layout: compress
   {% include head.html %}
   {% include head/custom.html %}
   <style>
-    /* Hero Section Styling */
-    .hero {
-      background: url('images/wallpaper.png') no-repeat center center;
-      background-size: cover;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
-      text-align: center;
-    }
-
-    .hero h1 {
-      font-size: 3rem;
-      font-weight: bold;
-    }
-
-    .hero p {
-      font-size: 1.5rem;
-    }
-
-    .scroll-btn {
-      margin-top: 20px;
-      background-color: #007bff;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 1rem;
-    }
-
-    .scroll-btn:hover {
-      background-color: #0056b3;
-    }
-
     /* Sidebar Styling */
     .sidebar {
       position: fixed;
@@ -70,24 +34,57 @@ layout: compress
       margin-left: 300px;
     }
 
-    /* Hide Hero on Non-Home Pages */
-    .not-home .hero {
-      display: none;
+    /* Hero Section Styling */
+    .hero {
+      background: url('images/wallpaper.png') no-repeat center center;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+    }
+
+    /* Scroll Down Button Styling */
+    .scroll-down {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .scroll-down:hover {
+      background-color: #0056b3;
     }
   </style>
 </head>
-<body class="{% if page.url == '/' %}home{% else %}not-home{% endif %}">
+<body>
   <header>
     {% include masthead.html %}
   </header>
 
   <!-- Hero Section -->
   <div class="hero">
-    <div>
-      <h1>Welcome to Rongzhe Wei's Personal Website</h1>
-      <p>PhD Candidate in Machine Learning | Georgia Institute of Technology</p>
-      <button class="scroll-btn" onclick="scrollToContent()">Scroll Down</button>
-    </div>
+    <h1>Welcome to Rongzhe Wei's Personal Website</h1>
+    <p>PhD Candidate in Machine Learning | Georgia Institute of Technology</p>
+    <button class="scroll-down" onclick="scrollToContent()">Scroll Down</button>
   </div>
 
   <!-- Sidebar -->
@@ -102,17 +99,8 @@ layout: compress
     {% include footer.html %}
   </footer>
 
-  {% include scripts.html %}
-
   <script>
-    function scrollToContent() {
-      window.scrollTo({
-        top: document.querySelector('.content').offsetTop,
-        behavior: 'smooth'
-      });
-    }
-
-    // Show sidebar on scroll
+    // Sidebar visibility logic
     document.addEventListener("scroll", function () {
       const sidebar = document.querySelector(".sidebar");
       if (window.scrollY > window.innerHeight) {
@@ -121,6 +109,14 @@ layout: compress
         sidebar.classList.remove("show");
       }
     });
+
+    // Scroll Down Button Logic
+    function scrollToContent() {
+      window.scrollTo({
+        top: window.innerHeight,
+        behavior: "smooth",
+      });
+    }
   </script>
 </body>
 </html>

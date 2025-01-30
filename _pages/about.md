@@ -57,7 +57,7 @@ I am actively seeking <b><u><span style="color:#FF0000;">research internship opp
 ---
 
 ### <i class="fas fa-briefcase" style="color:#28a745;"></i> Professional Services
-- **Conference Reviewer**: NeurIPS’22-24, ICML’24-25, ICLR’25, AISTATS’23-24, AAAI’24, LoG’22-24  
+- **Conference Reviewer**: NeurIPS’22-24, ICML’24-25, ICLR’25, AISTATS’23-24, ISIT'25, AAAI’24, LoG’22-24  
 - **Journal Reviewer**: *Computers and Mathematics with Applications*, TMLR  
 - **Graduate Teaching Assistant**:  
   - ECE 6720 Convex Optimization (Graduate Level)  

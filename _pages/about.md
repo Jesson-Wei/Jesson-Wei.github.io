@@ -22,6 +22,11 @@ I am actively seeking <b><u><span style="color:#FF0000;">research internship opp
   *arXiv preprint* <span style="color:#8B0000;">(arXiv:2412.08559)</span>  
   [[PDF](https://arxiv.org/pdf/2412.08559)]
 
+- <u><span style="color:#003366;">Haoteng Yin</span></u>, **<u><span style="color:#003366;">Rongzhe Wei</span></u>**, <span style="color:#003366;">Eli Chien</span>, and <span style="color:#003366;">Pan Li</span>  
+  ***Privately Learning from Graphs with Applications in Fine-tuning Large Language Models***
+  *arXiv preprint* <span style="color:#8B0000;">(arXiv:2410.08299)</span>  
+  [[PDF](https://arxiv.org/pdf/2410.08299)]
+
 - **<u><span style="color:#003366;">Rongzhe Wei</span></u>**, <span style="color:#003366;">Eli Chien</span>, <span style="color:#003366;">Pan Li</span>  
   ***Differentially Private Graph Diffusion with Applications in Personalized PageRanks***  
   *In Advances in Neural Information Processing Systems* <span style="color:#8B0000;">(NeurIPS’24)</span>  

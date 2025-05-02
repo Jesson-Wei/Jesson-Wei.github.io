@@ -19,7 +19,7 @@ Prior to that, I received my bachelor's degree in Honors Math from [Xi'an Jiaoto
 
 - **<u><span style="color:#003366;">Rongzhe Wei</span></u>**, <span style="color:#003366;">Mufei Li</span>, <span style="color:#003366;">Mohsen Ghassemi</span>, <span style="color:#003366;">Eleonora Kreacic</span>, <span style="color:#003366;">Yifan Li</span>, <span style="color:#003366;">Xiang Yue</span>, <span style="color:#003366;">Bo Li</span>, <span style="color:#003366;">Vamsi K. Potluru</span>, <span style="color:#003366;">Pan Li</span>, and <span style="color:#003366;">Eli Chien</span>  
   ***Underestimated Privacy Risks for Minority Populations in Large Language Model Unlearning***  
-  *In International Conference on Machine Learning* <span style="color:#8B0000;">(arXiv:2412.08559)</span> [[PDF](https://arxiv.org/pdf/2412.08559)]
+  *In International Conference on Machine Learning* <span style="color:#8B0000;">(ICML’25)</span> [[PDF](https://arxiv.org/pdf/2412.08559)]
 
 - <u><span style="color:#003366;">Haoteng Yin</span></u>, **<u><span style="color:#003366;">Rongzhe Wei</span></u>**, <span style="color:#003366;">Eli Chien</span>, and <span style="color:#003366;">Pan Li</span>  
   ***Privately Learning from Graphs with Applications in Fine-tuning Large Language Models***  

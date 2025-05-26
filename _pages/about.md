@@ -9,9 +9,7 @@ redirect_from:
 
 I'm a fourth-year PhD student in machine learning at [Georgia Institute of Technology](https://www.gatech.edu/), advised by [Prof. Pan Li](https://sites.google.com/view/panli-purdue/home). My current research interests include **<u><span>Machine Learning Trustworthy (Privacy)</span></u>**, **<u><span>Graph Learning Algorithms</span></u>**, and **<u><span>Large Language Model on Relational Data</span></u>**.
 
-Prior to that, I received my bachelor's degree in Honors Math from [Xi'an Jiaotong University](https://www.xjtu.edu.cn/). 
-
-📰 I will be joining <b><u><span style="color:#C82423;">Amazon</span></u></b> as a <b><u><span style="color:#C82423;">Research Intern</span></u></b> in <b><u><span style="color:#C82423;">Summer 2025</span></u></b>.
+Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'an Jiaotong University](https://www.xjtu.edu.cn/). 
 
 ---
 
@@ -76,6 +74,12 @@ Prior to that, I received my bachelor's degree in Honors Math from [Xi'an Jiaoto
 ---
 
 ### <i class="fas fa-industry" style="color:#ff6347;"></i> Industrial Experiences
+- **Amazon** — *Seattle, WA*  
+  *AI Research Intern*  
+  *May 2025 – Present*  
+  - **Project**: LLM Agent for Decision-making
+
+
 - **JP Morgan Chase & Co.** — *Manhattan, NYC, NY*  
   *AI Research Intern*  
   *June 2023 – August 2023*  

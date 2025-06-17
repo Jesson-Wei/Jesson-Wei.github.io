@@ -81,7 +81,7 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 - **Amazon** — *Seattle, WA*  
   *AI Research Intern*  
   *May 2025 – Present*  
-  - **Project**: LLM Agent for Decision-making
+  - **Project**: Reflection and Exploration-based LLM Action Planning
 
 
 - **JP Morgan Chase & Co.** — *Manhattan, NYC, NY*  

@@ -29,7 +29,7 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 
 - <span style="color:#003366;">Haoteng Yin</span>, **<u><span style="color:#003366;">Rongzhe Wei</span></u>**, <span style="color:#003366;">Eli Chien</span>, and <span style="color:#003366;">Pan Li</span>  
   ***Privately Learning from Graphs with Applications in Fine-tuning Large Language Models***  
-  *In* <span style="color:#8B0000;">SFLLM-NeurIPS'24 Workshop</span> [[PDF](https://arxiv.org/pdf/2410.08299)]
+  *In Conference on Language Modeling* <span style="color:#8B0000;">(COLM’25)</span> [[PDF](https://arxiv.org/pdf/2410.08299)]
 
 - <span style="color:#003366;">Shuaiqi Wang</span>, **<u><span style="color:#003366;">Rongzhe Wei</span></u>**, <span style="color:#003366;">Mohsen Ghassemi</span>, <span style="color:#003366;">Eleonora Kreacic</span>, and <span style="color:#003366;">Vamsi K. Potluru</span>  
   ***Guarding Multiple Secrets: Enhanced Summary Statistic Privacy for Data Sharing***  

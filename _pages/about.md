@@ -23,7 +23,7 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
   ***Underestimated Privacy Risks for Minority Populations in Large Language Model Unlearning***  
   *In International Conference on Machine Learning* <span style="color:#8B0000;">(ICML’25)</span> [[PDF](https://arxiv.org/pdf/2412.08559)]
 
-- **<span style="color:#003366;">Haoyu Wang</span>, <span style="color:#003366;">Shikun Liu</span>, <u><span style="color:#003366;">Rongzhe Wei</span></u>** and <span style="color:#003366;">Pan Li</span>  
+- <span style="color:#003366;">Haoyu Wang</span>, <span style="color:#003366;">Shikun Liu</span>, **<u><span style="color:#003366;">Rongzhe Wei</span></u>** and <span style="color:#003366;">Pan Li</span>  
 ***Generalization Principles for Inference over Text-Attributed Graphs with Large Language Models***  
 *In International Conference on Machine Learning* <span style="color:#8B0000;">(ICML’25)</span> [[PDF](https://arxiv.org/pdf/2502.11836)]
 

@@ -15,7 +15,7 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 
 ### <i class="fas fa-book-open" style="color:#007bff;"></i> Selected Publications
 
-- **<u><span style="color:#003366;">Rongzhe Wei<sup>*</sup></span></u>**, <span style="color:#003366;">Peizhi Niu<sup>*</sup></span>, <span style="color:#003366;">Hans Hao-Hsun Hsu</span>, <span style="color:#003366;">Ruihan Wu</span>, <span style="color:#003366;">Haoteng Yin</span>, <span style="color:#003366;">Mohsen Ghassemi</span>, <span style="color:#003366;">Yifan Li</span>, <span style="color:#003366;">Vamsi K. Potluru</span>, <span style="color:#003366;">Eli Chien</span>, <span style="color:#003366;">Kamalika Chaudhuri</span>, <span style="color:#003366;">Olgica Milenkovic</span>, and <span style="color:#003366;">Pan Li</span>  
+- **<u><span style="color:#003366;">Rongzhe Wei</span></u>**, <span style="color:#003366;">Peizhi Niu (Co-first)</span>, <span style="color:#003366;">Hans Hao-Hsun Hsu</span>, <span style="color:#003366;">Ruihan Wu</span>, <span style="color:#003366;">Haoteng Yin</span>, <span style="color:#003366;">Mohsen Ghassemi</span>, <span style="color:#003366;">Yifan Li</span>, <span style="color:#003366;">Vamsi K. Potluru</span>, <span style="color:#003366;">Eli Chien</span>, <span style="color:#003366;">Kamalika Chaudhuri</span>, <span style="color:#003366;">Olgica Milenkovic</span>, and <span style="color:#003366;">Pan Li</span>  
   ***Do LLMs Really Forget? Evaluating Unlearning with Knowledge Correlation and Confidence Awareness***  
   *arXiv preprint* [[PDF](https://arxiv.org/pdf/2506.05735)]
 

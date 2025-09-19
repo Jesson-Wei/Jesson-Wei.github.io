@@ -19,7 +19,7 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
   ***Do LLMs Really Forget? Evaluating Unlearning with Knowledge Correlation and Confidence Awareness***  
   *In Advances in Neural Information Processing Systems* <span style="color:#8B0000;">(NeurIPS’25)</span> [[PDF](https://arxiv.org/pdf/2506.05735)]
 
-- <span style="color:#003366;">Yinan Huang</span>, <span style="color:#003366;">Haoteng Yin</span>, <span style="color:#003366;">Eli Chien</span>, **<u><span style="color:#003366;">Rongzhe Wei</span></u>**, and <span style="color:#003366;">Pan Li</span>  
+- <span style="color:#003366;">Yinan Huang*</span>, <span style="color:#003366;">Haoteng Yin*</span>, <span style="color:#003366;">Eli Chien</span>, **<u><span style="color:#003366;">Rongzhe Wei</span></u>**, and <span style="color:#003366;">Pan Li</span>  
   ***Differentially Private Relational Learning with Entity-level Privacy Guarantees***  
   *In Advances in Neural Information Processing Systems* <span style="color:#8B0000;">(NeurIPS’25)</span> [[PDF](https://arxiv.org/pdf/2506.08347?)]
 

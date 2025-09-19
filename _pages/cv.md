@@ -5,5 +5,5 @@ permalink: /cv/
 ---
 
 <script>
-  window.location.href = "{{ site.baseurl }}/assets/Rongzhe_Wei_CV_June_2025.pdf";
+  window.location.href = "{{ site.baseurl }}/assets/Rongzhe_Wei_CV_Sep_2025.pdf";
 </script>

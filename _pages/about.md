@@ -99,7 +99,7 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 ### <i class="fas fa-industry" style="color:#ff6347;"></i> Industrial Experiences
 - **Amazon** — *Seattle, WA*  
   *AI Research Intern*  
-  *May 2025 – Present*  
+  *May 2025 – August 2025*  
   - **Project**: Reflection and Exploration-based LLM Action Planning
 
 

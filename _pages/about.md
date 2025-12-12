@@ -172,11 +172,15 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 ---
 
 ### <i class="fas fa-award" style="color:#ffc107;"></i> Selected Honors & Scholarship
-- **Travel Award**: NeurIPS 2022  
-- **Student Award**: 2019 IEEE International Conference on BigData  
-- **The First Prize of "Zhufeng" Scholarship** (Ministry of Education, "Pilot Scheme of Top-notch Talent Cultivation in Basic Disciplines")  
-- **Outstanding Student Award**: Xi’an Jiaotong University   
-- **First-class Scholarship**: Xi’an Jiaotong University  
+- **Georgia Tech CSIP Outstanding Research Award** · 2025  
+- **Lambda’s Research Grant** · 2025  
+- **OpenAI API Researcher Access Program Grant** · 2025  
+- **Travel Award** · NeurIPS 2022  
+- **Student Award** · IEEE International Conference on BigData 2019  
+- **The First Prize of “Zhufeng” Scholarship**  
+  *(Ministry of Education, Pilot Scheme of Top-notch Talent Cultivation in Basic Disciplines)*  
+- **Outstanding Student Award** · Xi’an Jiaotong University  
+- **First-class Scholarship** · Xi’an Jiaotong University
 
 ---
 

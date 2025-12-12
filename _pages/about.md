@@ -18,9 +18,9 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 ---
 
 **[arXiv] The Trojan Knowledge: Bypassing Commercial LLM Guardrails via Harmless Prompt Weaving and Adaptive Tree Search**  
-<u><span style="color:#003366;"><strong>Rongzhe Wei<sup>*</sup></strong></span></u>, 
-<span style="color:#003366;">Peizhi Niu<sup>*</sup></span>, 
-<span style="color:#003366;">Xinjie Shen<sup>*</sup></span>, 
+<u><span style="color:#003366;"><strong>Rongzhe Wei&#42;</strong></span></u>, 
+<span style="color:#003366;">Peizhi Niu&#42;</span>, 
+<span style="color:#003366;">Xinjie Shen&#42;</span>, 
 <span style="color:#003366;">Tony Tu</span>, 
 <span style="color:#003366;">Yifan Li</span>, 
 <span style="color:#003366;">Ruihan Wu</span>, 
@@ -37,8 +37,8 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 <span style="color:#003366;">Pan Li</span>
 
 **[NeurIPS’25] Do LLMs Really Forget? Evaluating Unlearning with Knowledge Correlation and Confidence Awareness**  
-<u><span style="color:#003366;"><strong>Rongzhe Wei*</strong></span></u>, 
-<span style="color:#003366;">Peizhi Niu*</span>, 
+<u><span style="color:#003366;"><strong>Rongzhe Wei&#42;</strong></span></u>, 
+<span style="color:#003366;">Peizhi Niu&#42;</span>, 
 <span style="color:#003366;">Hans Hao-Hsun Hsu</span>, 
 <span style="color:#003366;">Ruihan Wu</span>, 
 <span style="color:#003366;">Haoteng Yin</span>, 
@@ -52,8 +52,8 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 *Advances in Neural Information Processing Systems* · [[PDF](https://arxiv.org/pdf/2506.05735)]
 
 **[NeurIPS’25] Differentially Private Relational Learning with Entity-level Privacy Guarantees**  
-<span style="color:#003366;">Yinan Huang*</span>, 
-<span style="color:#003366;">Haoteng Yin*</span>, 
+<span style="color:#003366;">Yinan Huang&#42;</span>, 
+<span style="color:#003366;">Haoteng Yin&#42;</span>, 
 <span style="color:#003366;">Eli Chien</span>, 
 <u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, and 
 <span style="color:#003366;">Pan Li</span>  
@@ -103,8 +103,8 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 *Transactions on Machine Learning Research* · Selected to *ICLR’25 Poster* · [[PDF](https://arxiv.org/pdf/2310.15524)]
 
 **[WWW’24] Learning Scalable Structural Link Representations with Bloom Signatures**  
-<span style="color:#003366;">Tianyi Zhang*</span>, 
-<span style="color:#003366;">Haoteng Yin*</span>, 
+<span style="color:#003366;">Tianyi Zhang&#42;</span>, 
+<span style="color:#003366;">Haoteng Yin&#42;</span>, 
 <u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
 <span style="color:#003366;">Pan Li</span>, and 
 <span style="color:#003366;">Anshumali Shrivastava</span>  

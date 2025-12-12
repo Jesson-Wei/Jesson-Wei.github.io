@@ -17,6 +17,20 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 
 - <u><span style="color:#003366;"><strong>Rongzhe Wei*</strong></span></u>, 
   <span style="color:#003366;">Peizhi Niu*</span>, 
+  <span style="color:#003366;">Xinjie Shen*</span>, 
+  <span style="color:#003366;">Tony Tu</span>, 
+  <span style="color:#003366;">Yifan Li</span>, 
+  <span style="color:#003366;">Ruihan Wu</span>, 
+  <span style="color:#003366;">Eli Chien</span>, 
+  <span style="color:#003366;">Pin-yu Chen</span>, 
+  <span style="color:#003366;">Olgica Milenkovic</span>, and 
+  <span style="color:#003366;">Pan Li</span>  
+  <em><strong>The Trojan Knowledge: Bypassing Commercial LLM Guardrails via Harmless Prompt Weaving and Adaptive Tree Search</strong></em>  
+  <em>arXiv preprint</em> <span style="color:#8B0000;">(arXiv’25)</span> 
+  [[PDF](https://arxiv.org/pdf/2512.01353)] [[Project](https://cka-agent.github.io/)] [[Code](https://github.com/Graph-COM/CKA-Agent)]
+
+- <u><span style="color:#003366;"><strong>Rongzhe Wei*</strong></span></u>, 
+  <span style="color:#003366;">Peizhi Niu*</span>, 
   <span style="color:#003366;">Hans Hao-Hsun Hsu</span>, 
   <span style="color:#003366;">Ruihan Wu</span>, 
   <span style="color:#003366;">Haoteng Yin</span>, 

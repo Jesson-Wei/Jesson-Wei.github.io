@@ -29,6 +29,13 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
   <em>arXiv preprint</em> <span style="color:#8B0000;">(arXiv’25)</span> 
   [[PDF](https://arxiv.org/pdf/2512.01353)] [[Project](https://cka-agent.github.io/)] [[Code](https://github.com/Graph-COM/CKA-Agent)]
 
+- <span style="color:#003366;">Yupu Gu</span>, 
+  <u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
+  <span style="color:#003366;">Andy Zhu</span>, and 
+  <span style="color:#003366;">Pan Li</span>  
+  <em><strong>MoEEdit: Efficient and Routing-Stable Knowledge Editing for Mixture-of-Experts LLMs</strong></em>  
+  <span style="color:#8B0000;">(ICLR’26, under review)</span>
+
 - <u><span style="color:#003366;"><strong>Rongzhe Wei*</strong></span></u>, 
   <span style="color:#003366;">Peizhi Niu*</span>, 
   <span style="color:#003366;">Hans Hao-Hsun Hsu</span>, 

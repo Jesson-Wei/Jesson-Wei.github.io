@@ -15,97 +15,117 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 
 ### <i class="fas fa-book-open" style="color:#007bff;"></i> Selected Publications
 
-- <u><span style="color:#003366;"><strong>Rongzhe Wei*</strong></span></u>, 
-  <span style="color:#003366;">Peizhi Niu*</span>, 
-  <span style="color:#003366;">Xinjie Shen*</span>, 
-  <span style="color:#003366;">Tony Tu</span>, 
-  <span style="color:#003366;">Yifan Li</span>, 
-  <span style="color:#003366;">Ruihan Wu</span>, 
-  <span style="color:#003366;">Eli Chien</span>, 
-  <span style="color:#003366;">Pin-yu Chen</span>, 
-  <span style="color:#003366;">Olgica Milenkovic</span>, and 
-  <span style="color:#003366;">Pan Li</span>  
-  <em><strong>The Trojan Knowledge: Bypassing Commercial LLM Guardrails via Harmless Prompt Weaving and Adaptive Tree Search</strong></em>  
-  <em>arXiv preprint</em> <span style="color:#8B0000;">(arXiv’25)</span> 
-  [[PDF](https://arxiv.org/pdf/2512.01353)] [[Project](https://cka-agent.github.io/)] [[Code](https://github.com/Graph-COM/CKA-Agent)]
+---
 
-- <span style="color:#003366;">Yupu Gu</span>, 
-  <u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
-  <span style="color:#003366;">Andy Zhu</span>, and 
-  <span style="color:#003366;">Pan Li</span>  
-  <em><strong>MoEEdit: Efficient and Routing-Stable Knowledge Editing for Mixture-of-Experts LLMs</strong></em>  
-  <span style="color:#8B0000;">(ICLR’26, under review)</span>
+**[arXiv] The Trojan Knowledge: Bypassing Commercial LLM Guardrails via Harmless Prompt Weaving and Adaptive Tree Search**  
+<u><span style="color:#003366;"><strong>Rongzhe Wei*</strong></span></u>, 
+<span style="color:#003366;">Peizhi Niu*</span>, 
+<span style="color:#003366;">Xinjie Shen*</span>, 
+<span style="color:#003366;">Tony Tu</span>, 
+<span style="color:#003366;">Yifan Li</span>, 
+<span style="color:#003366;">Ruihan Wu</span>, 
+<span style="color:#003366;">Eli Chien</span>, 
+<span style="color:#003366;">Pin-yu Chen</span>, 
+<span style="color:#003366;">Olgica Milenkovic</span>, and 
+<span style="color:#003366;">Pan Li</span>  
+*arXiv preprint, 2025* · [[PDF](https://arxiv.org/pdf/2512.01353)] [[Project](https://cka-agent.github.io/)] [[Code](https://github.com/Graph-COM/CKA-Agent)]
 
-- <u><span style="color:#003366;"><strong>Rongzhe Wei*</strong></span></u>, 
-  <span style="color:#003366;">Peizhi Niu*</span>, 
-  <span style="color:#003366;">Hans Hao-Hsun Hsu</span>, 
-  <span style="color:#003366;">Ruihan Wu</span>, 
-  <span style="color:#003366;">Haoteng Yin</span>, 
-  <span style="color:#003366;">Mohsen Ghassemi</span>, 
-  <span style="color:#003366;">Yifan Li</span>, 
-  <span style="color:#003366;">Vamsi K. Potluru</span>, 
-  <span style="color:#003366;">Eli Chien</span>, 
-  <span style="color:#003366;">Kamalika Chaudhuri</span>, 
-  <span style="color:#003366;">Olgica Milenkovic</span>, and 
-  <span style="color:#003366;">Pan Li</span>  
-  <em><strong>Do LLMs Really Forget? Evaluating Unlearning with Knowledge Correlation and Confidence Awareness</strong></em>  
-  <em>In Advances in Neural Information Processing Systems</em> <span style="color:#8B0000;">(NeurIPS’25)</span> [[PDF](https://arxiv.org/pdf/2506.05735)]
+**[ICLR’26 · Under Review] MoEEdit: Efficient and Routing-Stable Knowledge Editing for Mixture-of-Experts LLMs**  
+<span style="color:#003366;">Yupu Gu</span>, 
+<u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
+<span style="color:#003366;">Andy Zhu</span>, and 
+<span style="color:#003366;">Pan Li</span>
 
-- <span style="color:#003366;">Yinan Huang*</span>, 
-  <span style="color:#003366;">Haoteng Yin*</span>, 
-  <span style="color:#003366;">Eli Chien</span>, 
-  <u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, and 
-  <span style="color:#003366;">Pan Li</span>  
-  <em><strong>Differentially Private Relational Learning with Entity-level Privacy Guarantees</strong></em>  
-  <em>In Advances in Neural Information Processing Systems</em> <span style="color:#8B0000;">(NeurIPS’25)</span> [[PDF](https://arxiv.org/pdf/2506.08347)]
+**[NeurIPS’25] Do LLMs Really Forget? Evaluating Unlearning with Knowledge Correlation and Confidence Awareness**  
+<u><span style="color:#003366;"><strong>Rongzhe Wei*</strong></span></u>, 
+<span style="color:#003366;">Peizhi Niu*</span>, 
+<span style="color:#003366;">Hans Hao-Hsun Hsu</span>, 
+<span style="color:#003366;">Ruihan Wu</span>, 
+<span style="color:#003366;">Haoteng Yin</span>, 
+<span style="color:#003366;">Mohsen Ghassemi</span>, 
+<span style="color:#003366;">Yifan Li</span>, 
+<span style="color:#003366;">Vamsi K. Potluru</span>, 
+<span style="color:#003366;">Eli Chien</span>, 
+<span style="color:#003366;">Kamalika Chaudhuri</span>, 
+<span style="color:#003366;">Olgica Milenkovic</span>, and 
+<span style="color:#003366;">Pan Li</span>  
+*Advances in Neural Information Processing Systems* · [[PDF](https://arxiv.org/pdf/2506.05735)]
 
-- **<u><span style="color:#003366;">Rongzhe Wei</span></u>**, <span style="color:#003366;">Mufei Li</span>, <span style="color:#003366;">Mohsen Ghassemi</span>, <span style="color:#003366;">Eleonora Kreacic</span>, <span style="color:#003366;">Yifan Li</span>, <span style="color:#003366;">Xiang Yue</span>, <span style="color:#003366;">Bo Li</span>, <span style="color:#003366;">Vamsi K. Potluru</span>, <span style="color:#003366;">Pan Li</span>, and <span style="color:#003366;">Eli Chien</span>  
-  ***Underestimated Privacy Risks for Minority Populations in Large Language Model Unlearning***  
-  *In International Conference on Machine Learning* <span style="color:#8B0000;">(ICML’25)</span> [[PDF](https://arxiv.org/pdf/2412.08559)]
+**[NeurIPS’25] Differentially Private Relational Learning with Entity-level Privacy Guarantees**  
+<span style="color:#003366;">Yinan Huang*</span>, 
+<span style="color:#003366;">Haoteng Yin*</span>, 
+<span style="color:#003366;">Eli Chien</span>, 
+<u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, and 
+<span style="color:#003366;">Pan Li</span>  
+*Advances in Neural Information Processing Systems* · [[PDF](https://arxiv.org/pdf/2506.08347)]
 
-- <span style="color:#003366;">Haoyu Wang</span>, <span style="color:#003366;">Shikun Liu</span>, **<u><span style="color:#003366;">Rongzhe Wei</span></u>** and <span style="color:#003366;">Pan Li</span>  
-***Generalization Principles for Inference over Text-Attributed Graphs with Large Language Models***  
-*In International Conference on Machine Learning* <span style="color:#8B0000;">(ICML’25)</span> [[PDF](https://arxiv.org/pdf/2502.11836)]
+**[ICML’25] Underestimated Privacy Risks for Minority Populations in Large Language Model Unlearning**  
+<u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
+<span style="color:#003366;">Mufei Li</span>, 
+<span style="color:#003366;">Mohsen Ghassemi</span>, 
+<span style="color:#003366;">Eleonora Kreacic</span>, 
+<span style="color:#003366;">Yifan Li</span>, 
+<span style="color:#003366;">Xiang Yue</span>, 
+<span style="color:#003366;">Bo Li</span>, 
+<span style="color:#003366;">Vamsi K. Potluru</span>, 
+<span style="color:#003366;">Pan Li</span>, and 
+<span style="color:#003366;">Eli Chien</span>  
+*International Conference on Machine Learning* · [[PDF](https://arxiv.org/pdf/2412.08559)]
 
-- <span style="color:#003366;">Haoteng Yin</span>, **<u><span style="color:#003366;">Rongzhe Wei</span></u>**, <span style="color:#003366;">Eli Chien</span>, and <span style="color:#003366;">Pan Li</span>  
-  ***Privately Learning from Graphs with Applications in Fine-tuning Large Language Models***  
-  *In Conference on Language Modeling* <span style="color:#8B0000;">(COLM’25)</span> [[PDF](https://arxiv.org/pdf/2410.08299)]
+**[ICML’25] Generalization Principles for Inference over Text-Attributed Graphs with Large Language Models**  
+<span style="color:#003366;">Haoyu Wang</span>, 
+<span style="color:#003366;">Shikun Liu</span>, 
+<u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, and 
+<span style="color:#003366;">Pan Li</span>  
+*International Conference on Machine Learning* · [[PDF](https://arxiv.org/pdf/2502.11836)]
 
-- <span style="color:#003366;">Shuaiqi Wang</span>, **<u><span style="color:#003366;">Rongzhe Wei</span></u>**, <span style="color:#003366;">Mohsen Ghassemi</span>, <span style="color:#003366;">Eleonora Kreacic</span>, and <span style="color:#003366;">Vamsi K. Potluru</span>  
-  ***Guarding Multiple Secrets: Enhanced Summary Statistic Privacy for Data Sharing***  
-  *In* <span style="color:#8B0000;">PML-ICLR'24 Workshop</span> [[PDF](https://arxiv.org/pdf/2405.13804)]
+**[COLM’25] Privately Learning from Graphs with Applications in Fine-tuning Large Language Models**  
+<span style="color:#003366;">Haoteng Yin</span>, 
+<u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
+<span style="color:#003366;">Eli Chien</span>, and 
+<span style="color:#003366;">Pan Li</span>  
+*Conference on Language Modeling* · [[PDF](https://arxiv.org/pdf/2410.08299)]
 
-- **<u><span style="color:#003366;">Rongzhe Wei</span></u>**, <span style="color:#003366;">Eli Chien</span>, and <span style="color:#003366;">Pan Li</span>  
-  ***Differentially Private Graph Diffusion with Applications in Personalized PageRanks***  
-  *In Advances in Neural Information Processing Systems* <span style="color:#8B0000;">(NeurIPS’24)</span> [[PDF](https://arxiv.org/pdf/2407.00077)]
+**[NeurIPS’24] Differentially Private Graph Diffusion with Applications in Personalized PageRanks**  
+<u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
+<span style="color:#003366;">Eli Chien</span>, and 
+<span style="color:#003366;">Pan Li</span>  
+*Advances in Neural Information Processing Systems* · [[PDF](https://arxiv.org/pdf/2407.00077)]
 
-- **<u><span style="color:#003366;">Rongzhe Wei</span></u>**, <span style="color:#003366;">Eleonora Kreačić</span>, <span style="color:#003366;">Haoyu Wang</span>, <span style="color:#003366;">Haoteng Yin</span>, <span style="color:#003366;">Eli Chien</span>, <span style="color:#003366;">Vamsi K Potluru</span>, and <span style="color:#003366;">Pan Li</span>  
-  ***On the Inherent Privacy Properties of Discrete Denoising Diffusion Models***  
-  *In Transactions on Machine Learning Research* <span style="color:#8B0000;">(TMLR’24)</span>  , Selected to <span style="color:#8B0000;">ICLR’25</span> Poster
-  [[PDF](https://arxiv.org/pdf/2310.15524)]
+**[TMLR’24 → ICLR’25] On the Inherent Privacy Properties of Discrete Denoising Diffusion Models**  
+<u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
+<span style="color:#003366;">Eleonora Kreačić</span>, 
+<span style="color:#003366;">Haoyu Wang</span>, 
+<span style="color:#003366;">Haoteng Yin</span>, 
+<span style="color:#003366;">Eli Chien</span>, 
+<span style="color:#003366;">Vamsi K. Potluru</span>, and 
+<span style="color:#003366;">Pan Li</span>  
+*Transactions on Machine Learning Research* · Selected to *ICLR’25 Poster* · [[PDF](https://arxiv.org/pdf/2310.15524)]
 
-- <span style="color:#003366;">Tianyi Zhang*</span>, 
-  <span style="color:#003366;">Haoteng Yin*</span>, 
-  <u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
-  <span style="color:#003366;">Pan Li</span>, and 
-  <span style="color:#003366;">Anshumali Shrivastava</span>  
-  <em><strong>Learning Scalable Structural Link Representations with Bloom Signatures</strong></em>  
-  <em>Proceedings of the ACM Web Conference</em> 
-  <span style="color:#8B0000;">(WWW’24)</span> [[PDF](https://arxiv.org/pdf/2312.16784)]
+**[WWW’24] Learning Scalable Structural Link Representations with Bloom Signatures**  
+<span style="color:#003366;">Tianyi Zhang*</span>, 
+<span style="color:#003366;">Haoteng Yin*</span>, 
+<u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
+<span style="color:#003366;">Pan Li</span>, and 
+<span style="color:#003366;">Anshumali Shrivastava</span>  
+*Proceedings of the ACM Web Conference* · [[PDF](https://arxiv.org/pdf/2312.16784)]
 
-- <span style="color:#003366;">Yizhou Wang</span>, 
-  <span style="color:#003366;">Can Qin</span>, 
-  <u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
-  <span style="color:#003366;">Yi Xu</span>, 
-  <span style="color:#003366;">Yue Bai</span>, and 
-  <span style="color:#003366;">Yun Fu</span>  
-  <em><strong>SLA<sup>2</sup>P: Self-supervised Anomaly Detection with Adversarial Perturbation</strong></em>  
-  <em>IEEE Transactions on Knowledge and Data Engineering</em> 
-  <span style="color:#8B0000;">(TKDE’24)</span> [[PDF](https://ieeexplore.ieee.org/document/10645289)]
+**[TKDE’24] SLA<sup>2</sup>P: Self-supervised Anomaly Detection with Adversarial Perturbation**  
+<span style="color:#003366;">Yizhou Wang</span>, 
+<span style="color:#003366;">Can Qin</span>, 
+<u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
+<span style="color:#003366;">Yi Xu</span>, 
+<span style="color:#003366;">Yue Bai</span>, and 
+<span style="color:#003366;">Yun Fu</span>  
+*IEEE Transactions on Knowledge and Data Engineering* · [[PDF](https://ieeexplore.ieee.org/document/10645289)]
 
-- **<u><span style="color:#003366;">Rongzhe Wei</span></u>**, <span style="color:#003366;">Haoteng Yin</span>, <span style="color:#003366;">Junteng Jia</span>, <span style="color:#003366;">Austin R. Benson</span>, and <span style="color:#003366;">Pan Li</span>  
-  ***Understanding Non-linearity in Graph Neural Networks from the Bayesian-Inference Perspective***  
-  *In Advances in Neural Information Processing Systems* <span style="color:#8B0000;">(NeurIPS’22)</span> [[PDF](https://arxiv.org/pdf/2207.11311)]
+**[NeurIPS’22] Understanding Non-linearity in Graph Neural Networks from the Bayesian-Inference Perspective**  
+<u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
+<span style="color:#003366;">Haoteng Yin</span>, 
+<span style="color:#003366;">Junteng Jia</span>, 
+<span style="color:#003366;">Austin R. Benson</span>, and 
+<span style="color:#003366;">Pan Li</span>  
+*Advances in Neural Information Processing Systems* · [[PDF](https://arxiv.org/pdf/2207.11311)]
 
 ---
 

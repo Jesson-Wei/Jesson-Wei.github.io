@@ -93,6 +93,16 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
   <em>Proceedings of the ACM Web Conference</em> 
   <span style="color:#8B0000;">(WWW’24)</span> [[PDF](https://arxiv.org/pdf/2312.16784)]
 
+- <span style="color:#003366;">Yizhou Wang</span>, 
+  <span style="color:#003366;">Can Qin</span>, 
+  <u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
+  <span style="color:#003366;">Yi Xu</span>, 
+  <span style="color:#003366;">Yue Bai</span>, and 
+  <span style="color:#003366;">Yun Fu</span>  
+  <em><strong>SLA<sup>2</sup>P: Self-supervised Anomaly Detection with Adversarial Perturbation</strong></em>  
+  <em>IEEE Transactions on Knowledge and Data Engineering</em> 
+  <span style="color:#8B0000;">(TKDE’24)</span> [[PDF](https://ieeexplore.ieee.org/document/10645289)]
+
 - **<u><span style="color:#003366;">Rongzhe Wei</span></u>**, <span style="color:#003366;">Haoteng Yin</span>, <span style="color:#003366;">Junteng Jia</span>, <span style="color:#003366;">Austin R. Benson</span>, and <span style="color:#003366;">Pan Li</span>  
   ***Understanding Non-linearity in Graph Neural Networks from the Bayesian-Inference Perspective***  
   *In Advances in Neural Information Processing Systems* <span style="color:#8B0000;">(NeurIPS’22)</span> [[PDF](https://arxiv.org/pdf/2207.11311)]

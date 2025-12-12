@@ -17,7 +17,7 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 
 ---
 
-**[arXiv] The Trojan Knowledge: Bypassing Commercial LLM Guardrails via Harmless Prompt Weaving and Adaptive Tree Search**  
+- **[arXiv] The Trojan Knowledge: Bypassing Commercial LLM Guardrails via Harmless Prompt Weaving and Adaptive Tree Search**  
 <u><span style="color:#003366;"><strong>Rongzhe Wei&#42;</strong></span></u>, 
 <span style="color:#003366;">Peizhi Niu&#42;</span>, 
 <span style="color:#003366;">Xinjie Shen&#42;</span>, 
@@ -30,13 +30,13 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 <span style="color:#003366;">Pan Li</span>  
 *arXiv preprint, 2025* · [[PDF](https://arxiv.org/pdf/2512.01353)] [[Project](https://cka-agent.github.io/)] [[Code](https://github.com/Graph-COM/CKA-Agent)]
 
-**[ICLR’26 · Under Review] MoEEdit: Efficient and Routing-Stable Knowledge Editing for Mixture-of-Experts LLMs**  
+- **[ICLR’26 · Under Review] MoEEdit: Efficient and Routing-Stable Knowledge Editing for Mixture-of-Experts LLMs**  
 <span style="color:#003366;">Yupu Gu</span>, 
 <u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
 <span style="color:#003366;">Andy Zhu</span>, and 
 <span style="color:#003366;">Pan Li</span>
 
-**[NeurIPS’25] Do LLMs Really Forget? Evaluating Unlearning with Knowledge Correlation and Confidence Awareness**  
+- **[NeurIPS’25] Do LLMs Really Forget? Evaluating Unlearning with Knowledge Correlation and Confidence Awareness**  
 <u><span style="color:#003366;"><strong>Rongzhe Wei&#42;</strong></span></u>, 
 <span style="color:#003366;">Peizhi Niu&#42;</span>, 
 <span style="color:#003366;">Hans Hao-Hsun Hsu</span>, 
@@ -51,7 +51,7 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 <span style="color:#003366;">Pan Li</span>  
 *Advances in Neural Information Processing Systems* · [[PDF](https://arxiv.org/pdf/2506.05735)]
 
-**[NeurIPS’25] Differentially Private Relational Learning with Entity-level Privacy Guarantees**  
+- **[NeurIPS’25] Differentially Private Relational Learning with Entity-level Privacy Guarantees**  
 <span style="color:#003366;">Yinan Huang&#42;</span>, 
 <span style="color:#003366;">Haoteng Yin&#42;</span>, 
 <span style="color:#003366;">Eli Chien</span>, 
@@ -59,7 +59,7 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 <span style="color:#003366;">Pan Li</span>  
 *Advances in Neural Information Processing Systems* · [[PDF](https://arxiv.org/pdf/2506.08347)]
 
-**[ICML’25] Underestimated Privacy Risks for Minority Populations in Large Language Model Unlearning**  
+- **[ICML’25] Underestimated Privacy Risks for Minority Populations in Large Language Model Unlearning**  
 <u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
 <span style="color:#003366;">Mufei Li</span>, 
 <span style="color:#003366;">Mohsen Ghassemi</span>, 
@@ -72,27 +72,27 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 <span style="color:#003366;">Eli Chien</span>  
 *International Conference on Machine Learning* · [[PDF](https://arxiv.org/pdf/2412.08559)]
 
-**[ICML’25] Generalization Principles for Inference over Text-Attributed Graphs with Large Language Models**  
+- **[ICML’25] Generalization Principles for Inference over Text-Attributed Graphs with Large Language Models**  
 <span style="color:#003366;">Haoyu Wang</span>, 
 <span style="color:#003366;">Shikun Liu</span>, 
 <u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, and 
 <span style="color:#003366;">Pan Li</span>  
 *International Conference on Machine Learning* · [[PDF](https://arxiv.org/pdf/2502.11836)]
 
-**[COLM’25] Privately Learning from Graphs with Applications in Fine-tuning Large Language Models**  
+- **[COLM’25] Privately Learning from Graphs with Applications in Fine-tuning Large Language Models**  
 <span style="color:#003366;">Haoteng Yin</span>, 
 <u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
 <span style="color:#003366;">Eli Chien</span>, and 
 <span style="color:#003366;">Pan Li</span>  
 *Conference on Language Modeling* · [[PDF](https://arxiv.org/pdf/2410.08299)]
 
-**[NeurIPS’24] Differentially Private Graph Diffusion with Applications in Personalized PageRanks**  
+- **[NeurIPS’24] Differentially Private Graph Diffusion with Applications in Personalized PageRanks**  
 <u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
 <span style="color:#003366;">Eli Chien</span>, and 
 <span style="color:#003366;">Pan Li</span>  
 *Advances in Neural Information Processing Systems* · [[PDF](https://arxiv.org/pdf/2407.00077)]
 
-**[TMLR’24 → ICLR’25] On the Inherent Privacy Properties of Discrete Denoising Diffusion Models**  
+- **[TMLR’24 → ICLR’25] On the Inherent Privacy Properties of Discrete Denoising Diffusion Models**  
 <u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
 <span style="color:#003366;">Eleonora Kreačić</span>, 
 <span style="color:#003366;">Haoyu Wang</span>, 
@@ -102,7 +102,7 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 <span style="color:#003366;">Pan Li</span>  
 *Transactions on Machine Learning Research* · Selected to *ICLR’25 Poster* · [[PDF](https://arxiv.org/pdf/2310.15524)]
 
-**[WWW’24] Learning Scalable Structural Link Representations with Bloom Signatures**  
+- **[WWW’24] Learning Scalable Structural Link Representations with Bloom Signatures**  
 <span style="color:#003366;">Tianyi Zhang&#42;</span>, 
 <span style="color:#003366;">Haoteng Yin&#42;</span>, 
 <u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
@@ -110,7 +110,7 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 <span style="color:#003366;">Anshumali Shrivastava</span>  
 *Proceedings of the ACM Web Conference* · [[PDF](https://arxiv.org/pdf/2312.16784)]
 
-**[TKDE’24] SLA<sup>2</sup>P: Self-supervised Anomaly Detection with Adversarial Perturbation**  
+- **[TKDE’24] SLA<sup>2</sup>P: Self-supervised Anomaly Detection with Adversarial Perturbation**  
 <span style="color:#003366;">Yizhou Wang</span>, 
 <span style="color:#003366;">Can Qin</span>, 
 <u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
@@ -119,7 +119,7 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 <span style="color:#003366;">Yun Fu</span>  
 *IEEE Transactions on Knowledge and Data Engineering* · [[PDF](https://ieeexplore.ieee.org/document/10645289)]
 
-**[NeurIPS’22] Understanding Non-linearity in Graph Neural Networks from the Bayesian-Inference Perspective**  
+- **[NeurIPS’22] Understanding Non-linearity in Graph Neural Networks from the Bayesian-Inference Perspective**  
 <u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
 <span style="color:#003366;">Haoteng Yin</span>, 
 <span style="color:#003366;">Junteng Jia</span>, 

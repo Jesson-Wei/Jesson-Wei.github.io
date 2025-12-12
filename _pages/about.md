@@ -18,9 +18,9 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 ---
 
 **[arXiv] The Trojan Knowledge: Bypassing Commercial LLM Guardrails via Harmless Prompt Weaving and Adaptive Tree Search**  
-<u><span style="color:#003366;"><strong>Rongzhe Wei*</strong></span></u>, 
-<span style="color:#003366;">Peizhi Niu*</span>, 
-<span style="color:#003366;">Xinjie Shen*</span>, 
+<u><span style="color:#003366;"><strong>Rongzhe Wei<sup>*</sup></strong></span></u>, 
+<span style="color:#003366;">Peizhi Niu<sup>*</sup></span>, 
+<span style="color:#003366;">Xinjie Shen<sup>*</sup></span>, 
 <span style="color:#003366;">Tony Tu</span>, 
 <span style="color:#003366;">Yifan Li</span>, 
 <span style="color:#003366;">Ruihan Wu</span>, 

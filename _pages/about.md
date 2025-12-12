@@ -13,7 +13,7 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 
 ---
 
-### <i class="fas fa-book-open" style="color:#007bff;"></i> Selected Publications
+### <i class="fas fa-file-alt" style="color:#6c757d;"></i> Preprints
 
 ---
 
@@ -35,6 +35,19 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 <u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
 <span style="color:#003366;">Andy Zhu</span>, and 
 <span style="color:#003366;">Pan Li</span>
+
+- **[ICLR’24 · PML Workshop] Guarding Multiple Secrets: Enhanced Summary Statistic Privacy for Data Sharing**  
+<span style="color:#003366;">Shuaiqi Wang</span>, 
+<u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
+<span style="color:#003366;">Mohsen Ghassemi</span>, 
+<span style="color:#003366;">Eleonora Kreacic</span>, and 
+<span style="color:#003366;">Vamsi K. Potluru</span>
+
+---
+
+### <i class="fas fa-book-open" style="color:#007bff;"></i> Selected Publications
+
+---
 
 - **[NeurIPS’25] Do LLMs Really Forget? Evaluating Unlearning with Knowledge Correlation and Confidence Awareness**  
 <u><span style="color:#003366;"><strong>Rongzhe Wei&#42;</strong></span></u>, 

@@ -84,6 +84,15 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
   *In Transactions on Machine Learning Research* <span style="color:#8B0000;">(TMLR’24)</span>  , Selected to <span style="color:#8B0000;">ICLR’25</span> Poster
   [[PDF](https://arxiv.org/pdf/2310.15524)]
 
+- <span style="color:#003366;">Tianyi Zhang*</span>, 
+  <span style="color:#003366;">Haoteng Yin*</span>, 
+  <u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
+  <span style="color:#003366;">Pan Li</span>, and 
+  <span style="color:#003366;">Anshumali Shrivastava</span>  
+  <em><strong>Learning Scalable Structural Link Representations with Bloom Signatures</strong></em>  
+  <em>Proceedings of the ACM Web Conference</em> 
+  <span style="color:#8B0000;">(WWW’24)</span> [[PDF](https://arxiv.org/pdf/2312.16784)]
+
 - **<u><span style="color:#003366;">Rongzhe Wei</span></u>**, <span style="color:#003366;">Haoteng Yin</span>, <span style="color:#003366;">Junteng Jia</span>, <span style="color:#003366;">Austin R. Benson</span>, and <span style="color:#003366;">Pan Li</span>  
   ***Understanding Non-linearity in Graph Neural Networks from the Bayesian-Inference Perspective***  
   *In Advances in Neural Information Processing Systems* <span style="color:#8B0000;">(NeurIPS’22)</span> [[PDF](https://arxiv.org/pdf/2207.11311)]

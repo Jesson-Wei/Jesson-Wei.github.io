@@ -44,8 +44,11 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 ---
 
 - **[ICLR’26] MoEEdit: Efficient and Routing-Stable Knowledge Editing for Mixture-of-Experts LLMs**  
-  Yupu Gu, **Rongzhe Wei**, Andy Zhu, and Pan Li  
-  *International Conference on Learning Representations*
+<span style="color:#003366;">Yupu Gu</span>, 
+<u><span style="color:#003366;"><strong>Rongzhe Wei</strong></span></u>, 
+<span style="color:#003366;">Andy Zhu</span>, and 
+<span style="color:#003366;">Pan Li</span>  
+*International Conference on Learning Representations*
 
 - **[NeurIPS’25] Do LLMs Really Forget? Evaluating Unlearning with Knowledge Correlation and Confidence Awareness**  
 <u><span style="color:#003366;"><strong>Rongzhe Wei&#42;</strong></span></u>, 

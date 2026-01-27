@@ -150,7 +150,7 @@ Prior to that, I received my bachelor's degree in Honors Math Program from [Xi'a
 
 - **Xi’an Jiaotong University (XJTU)** (2017–2021)  
   B.S. in Mathematics and Applied Mathematics (National Honors Program - Qian Xuesen College)  
-  GPA: 3.87/4.00
+  GPA: 3.89/4.00
 
 - **Georgia Institute of Technology (GaTech)** (2020 Spring)  
   Visiting Honors Student Program (School of Mathematics)

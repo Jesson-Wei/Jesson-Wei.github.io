@@ -1,11 +1,4 @@
----
-permalink: /
-title: "Welcome to Rongzhe Wei (魏容哲)'s Personal Website"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
+<!-- Original about page (archived) -->
 
 I'm a fifth-year PhD student in machine learning at [Georgia Institute of Technology](https://www.gatech.edu/), advised by [Prof. Pan Li](https://sites.google.com/view/panli-purdue/home). My current research interests include **<u><span>Trustworthy Machine Learning (Machine Unlearning, Privacy, Model Safety)</span></u>**, **<u><span>Graph Analysis (Graph Diffusion, Graph Neural Networks)</span></u>**, and **<u><span>Large Language Models, Agentic AI (Planning, Decision-making, Search Mechanism)</span></u>**.
 

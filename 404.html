@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 — Rongzhe Wei</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    .error-page {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .error-code {
+      font-family: var(--font-mono);
+      font-size: 6rem;
+      font-weight: 700;
+      color: var(--accent);
+      line-height: 1;
+    }
+    .error-msg {
+      color: var(--text-secondary);
+      margin: var(--space-md) 0 var(--space-xl);
+    }
+  </style>
+</head>
+<body>
+  <div class="error-page">
+    <div>
+      <div class="error-code">404</div>
+      <p class="error-msg">This page doesn't exist.</p>
+      <a href="/" class="btn btn-primary">Back to Home</a>
+    </div>
+  </div>
+</body>
+</html>

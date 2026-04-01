@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rongzhe Wei — ML Researcher @ Georgia Tech</title>
+  <meta name="description" content="Rongzhe Wei is a PhD candidate in Machine Learning at Georgia Tech, studying trustworthy AI through the lens of structured internal knowledge.">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">RW</a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="assets/Rongzhe_Wei_CV_Feb_2026.pdf" target="_blank">CV</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+      </div>
+      <button class="nav-hamburger" id="mobileToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="about">
+    <div class="container">
+      <div class="hero-layout">
+        <div class="hero-avatar-col">
+          <img src="images/personal_photo_magic.png" alt="Rongzhe Wei" class="avatar">
+          <div class="hero-social">
+            <a href="mailto:rongzhe.wei@gatech.edu" title="Email">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+            <a href="https://scholar.google.com/citations?user=FTHUBdAAAAAJ" target="_blank" title="Google Scholar">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+            </a>
+            <a href="https://github.com/Jesson-Wei" target="_blank" title="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+            <a href="assets/Rongzhe_Wei_CV_Feb_2026.pdf" target="_blank" title="CV">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-text-col">
+          <h1 class="hero-name">Rongzhe Wei <span class="hero-cn">魏容哲</span></h1>
+          <p class="hero-role">Ph.D. Candidate in Machine Learning, Georgia Tech</p>
+          <p class="hero-tagline">I study trustworthy AI through the lens of structured internal knowledge.</p>
+          <p class="hero-bio">
+            Fifth-year PhD student advised by <a href="https://sites.google.com/view/panli-purdue/home" target="_blank">Prof. Pan Li</a>.
+            My research explores how language models store, retrieve, forget, and exploit knowledge —
+            spanning LLM unlearning, AI safety, and agentic reasoning, with foundations in graph learning and differential privacy.
+          </p>
+          <div class="hero-tags">
+            <span class="research-tag">LLM Unlearning</span>
+            <span class="research-tag">AI Safety & Jailbreaking</span>
+            <span class="research-tag">Agentic AI</span>
+            <span class="research-tag">Graph Learning</span>
+            <span class="research-tag">Differential Privacy</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- SELECTED RESEARCH -->
+    <section class="section" id="research">
+      <div class="container">
+        <h2 class="section-heading">Selected Research</h2>
+        <p class="section-lead">Representative projects across my research areas.</p>
+        <div class="research-grid">
+
+          <div class="research-card">
+            <div class="research-card-inner">
+              <span class="rc-venue">ICLR'26 Workshop</span>
+              <h3 class="rc-title">CKA-Agent</h3>
+              <p class="rc-desc">Reformulating LLM jailbreaking as adaptive tree search over correlated knowledge. Achieves 96–99% success on GPT-5.2, Gemini-3.0-Pro & Claude-Haiku-4.5.</p>
+              <div class="rc-links">
+                <a href="https://arxiv.org/pdf/2512.01353" target="_blank">Paper</a>
+                <a href="https://cka-agent.github.io/" target="_blank">Project</a>
+                <a href="https://github.com/Graph-COM/CKA-Agent" target="_blank">Code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="research-card">
+            <div class="research-card-inner">
+              <span class="rc-venue">NeurIPS 2025</span>
+              <h3 class="rc-title">LLM Unlearning Evaluation</h3>
+              <p class="rc-desc">Do LLMs really forget? We probe whether models truly unlearn through knowledge correlation and confidence-aware evaluation.</p>
+              <div class="rc-links">
+                <a href="https://arxiv.org/pdf/2506.05735" target="_blank">Paper</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="research-card">
+            <div class="research-card-inner">
+              <span class="rc-venue">ICLR 2026</span>
+              <h3 class="rc-title">MoEEdit</h3>
+              <p class="rc-desc">Efficient and routing-stable knowledge editing for Mixture-of-Experts LLMs — surgically updating knowledge without disrupting expert routing.</p>
+              <div class="rc-links">
+              </div>
+            </div>
+          </div>
+
+          <div class="research-card">
+            <div class="research-card-inner">
+              <span class="rc-venue">ICML 2025</span>
+              <h3 class="rc-title">Privacy Risks in LLM Unlearning</h3>
+              <p class="rc-desc">Revealing underestimated privacy risks for minority populations in large language model unlearning — showing that current methods disproportionately fail for underrepresented groups.</p>
+              <div class="rc-links">
+                <a href="https://arxiv.org/pdf/2412.08559" target="_blank">Paper</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWS -->
+    <section class="section section-alt" id="news">
+      <div class="container">
+        <h2 class="section-heading">News</h2>
+
+        <!-- Highlights -->
+        <div class="highlights-row">
+          <div class="highlight-card">
+            <span class="hl-icon">&#127942;</span>
+            <div>
+              <strong>NAIRR Pilot Award</strong>
+              <p>Proposal lead author — recognized for "high degree of alignment with national AI strategic focus."</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <span class="hl-icon">&#127908;</span>
+            <div>
+              <strong>Google Research & IBM Research</strong>
+              <p>Invited talks on rethinking unlearning and jailbreaking in LLMs.</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <span class="hl-icon">&#127941;</span>
+            <div>
+              <strong>CSIP Outstanding Research Award</strong>
+              <p>Fortunate to receive the Georgia Tech CSIP Award for 2025.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline -->
+        <h3 class="news-subheading">Recent Updates</h3>
+        <div class="news-list">
+          <div class="news-item">
+            <span class="news-date">Feb 2026</span>
+            <p>Invited Talk: <em>"From Atomic Facts to Structured Internal Knowledge: Rethinking Unlearning and Jailbreaking in LLMs"</em> at <strong>Google Research Seminar</strong>.</p>
+          </div>
+          <div class="news-item">
+            <span class="news-date">Feb 2026</span>
+            <p>Proposal Lead Author: <em>"Structured-Knowledge-Guided Agentic LLM Jailbreaking and Defense"</em> — <strong>NAIRR Pilot Award</strong>.</p>
+          </div>
+          <div class="news-item">
+            <span class="news-date">Jan 2026</span>
+            <p>Invited Talk: <em>"From Atomic Facts to Structured Internal Knowledge"</em> at <strong>IBM Research</strong>.</p>
+          </div>
+          <div class="news-item">
+            <span class="news-date">Dec 2025</span>
+            <p>Fortunate to receive the <strong>CSIP Outstanding Research Award</strong> for 2025.</p>
+          </div>
+          <div class="news-item">
+            <span class="news-date">Nov 2025</span>
+            <p>New preprint: <strong>CKA-Agent</strong> achieves 96–99% jailbreak success on frontier LLMs via adaptive tree search. <a href="https://arxiv.org/pdf/2512.01353" target="_blank">Paper</a> · <a href="https://cka-agent.github.io/" target="_blank">Project</a></p>
+          </div>
+          <div class="news-item">
+            <span class="news-date">Sep 2025</span>
+            <p>Two papers accepted at <strong>NeurIPS 2025</strong>.</p>
+          </div>
+          <div class="news-item">
+            <span class="news-date">May 2025</span>
+            <p>Two papers accepted at <strong>ICML 2025</strong>.</p>
+          </div>
+          <div class="news-item">
+            <span class="news-date">May 2025</span>
+            <p>Started AI Research Internship at <strong>Amazon</strong>, Seattle.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section class="section" id="publications">
+      <div class="container">
+        <h2 class="section-heading">Publications</h2>
+        <p class="section-lead">Full list on <a href="https://scholar.google.com/citations?user=FTHUBdAAAAAJ" target="_blank">Google Scholar</a>. * = equal contribution.</p>
+
+        <h3 class="pub-group">Preprints</h3>
+
+        <div class="pub-item">
+          <h4 class="pub-title">The Trojan Knowledge: Bypassing Commercial LLM Guardrails via Harmless Prompt Weaving and Adaptive Tree Search</h4>
+          <p class="pub-authors"><span class="me">Rongzhe Wei*</span>, Peizhi Niu*, Xinjie Shen*, Tony Tu, Yifan Li, Ruihan Wu, Eli Chien, Pin-yu Chen, Olgica Milenkovic, Pan Li</p>
+          <div class="pub-meta">
+            <span class="pub-venue">ICLR 2026 AIWILD Workshop</span>
+            <div class="pub-links">
+              <a href="https://arxiv.org/pdf/2512.01353" target="_blank">Arxiv</a>
+              <a href="https://github.com/Graph-COM/CKA-Agent" target="_blank">Code</a>
+              <a href="https://cka-agent.github.io/" target="_blank">Webpage</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <h4 class="pub-title">Guarding Multiple Secrets: Enhanced Summary Statistic Privacy for Data Sharing</h4>
+          <p class="pub-authors">Shuaiqi Wang, <span class="me">Rongzhe Wei</span>, Mohsen Ghassemi, Eleonora Kreacic, Vamsi K. Potluru</p>
+          <div class="pub-meta">
+            <span class="pub-venue">ICLR 2024 PML Workshop</span>
+          </div>
+        </div>
+
+        <h3 class="pub-group">Conference & Journal Papers</h3>
+
+        <div class="pub-item">
+          <h4 class="pub-title">MoEEdit: Efficient and Routing-Stable Knowledge Editing for Mixture-of-Experts LLMs</h4>
+          <p class="pub-authors">Yupu Gu, <span class="me">Rongzhe Wei</span>, Andy Zhu, Pan Li</p>
+          <div class="pub-meta"><span class="pub-venue">ICLR 2026</span></div>
+        </div>
+
+        <div class="pub-item">
+          <h4 class="pub-title">Do LLMs Really Forget? Evaluating Unlearning with Knowledge Correlation and Confidence Awareness</h4>
+          <p class="pub-authors"><span class="me">Rongzhe Wei*</span>, Peizhi Niu*, Hans Hao-Hsun Hsu, Ruihan Wu, Haoteng Yin, Mohsen Ghassemi, Yifan Li, Vamsi K. Potluru, Eli Chien, Kamalika Chaudhuri, Olgica Milenkovic, Pan Li</p>
+          <div class="pub-meta">
+            <span class="pub-venue">NeurIPS 2025</span>
+            <div class="pub-links"><a href="https://arxiv.org/pdf/2506.05735" target="_blank">Arxiv</a></div>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <h4 class="pub-title">Differentially Private Relational Learning with Entity-level Privacy Guarantees</h4>
+          <p class="pub-authors">Yinan Huang*, Haoteng Yin*, Eli Chien, <span class="me">Rongzhe Wei</span>, Pan Li</p>
+          <div class="pub-meta">
+            <span class="pub-venue">NeurIPS 2025</span>
+            <div class="pub-links"><a href="https://arxiv.org/pdf/2506.08347" target="_blank">Arxiv</a></div>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <h4 class="pub-title">Underestimated Privacy Risks for Minority Populations in Large Language Model Unlearning</h4>
+          <p class="pub-authors"><span class="me">Rongzhe Wei</span>, Mufei Li, Mohsen Ghassemi, Eleonora Kreacic, Yifan Li, Xiang Yue, Bo Li, Vamsi K. Potluru, Pan Li, Eli Chien</p>
+          <div class="pub-meta">
+            <span class="pub-venue">ICML 2025</span>
+            <div class="pub-links"><a href="https://arxiv.org/pdf/2412.08559" target="_blank">Arxiv</a></div>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <h4 class="pub-title">Generalization Principles for Inference over Text-Attributed Graphs with Large Language Models</h4>
+          <p class="pub-authors">Haoyu Wang, Shikun Liu, <span class="me">Rongzhe Wei</span>, Pan Li</p>
+          <div class="pub-meta">
+            <span class="pub-venue">ICML 2025</span>
+            <div class="pub-links"><a href="https://arxiv.org/pdf/2502.11836" target="_blank">Arxiv</a></div>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <h4 class="pub-title">Privately Learning from Graphs with Applications in Fine-tuning Large Language Models</h4>
+          <p class="pub-authors">Haoteng Yin, <span class="me">Rongzhe Wei</span>, Eli Chien, Pan Li</p>
+          <div class="pub-meta">
+            <span class="pub-venue">COLM 2025</span>
+            <div class="pub-links"><a href="https://arxiv.org/pdf/2410.08299" target="_blank">Arxiv</a></div>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <h4 class="pub-title">Differentially Private Graph Diffusion with Applications in Personalized PageRanks</h4>
+          <p class="pub-authors"><span class="me">Rongzhe Wei</span>, Eli Chien, Pan Li</p>
+          <div class="pub-meta">
+            <span class="pub-venue">NeurIPS 2024</span>
+            <div class="pub-links"><a href="https://arxiv.org/pdf/2407.00077" target="_blank">Arxiv</a></div>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <h4 class="pub-title">On the Inherent Privacy Properties of Discrete Denoising Diffusion Models</h4>
+          <p class="pub-authors"><span class="me">Rongzhe Wei</span>, Eleonora Kreacic, Haoyu Wang, Haoteng Yin, Eli Chien, Vamsi K. Potluru, Pan Li</p>
+          <div class="pub-meta">
+            <span class="pub-venue">TMLR 2024 &rarr; ICLR 2025</span>
+            <div class="pub-links"><a href="https://arxiv.org/pdf/2310.15524" target="_blank">Arxiv</a></div>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <h4 class="pub-title">Learning Scalable Structural Link Representations with Bloom Signatures</h4>
+          <p class="pub-authors">Tianyi Zhang*, Haoteng Yin*, <span class="me">Rongzhe Wei</span>, Pan Li, Anshumali Shrivastava</p>
+          <div class="pub-meta">
+            <span class="pub-venue">WWW 2024</span>
+            <div class="pub-links"><a href="https://arxiv.org/pdf/2312.16784" target="_blank">Arxiv</a></div>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <h4 class="pub-title">SLA<sup>2</sup>P: Self-supervised Anomaly Detection with Adversarial Perturbation</h4>
+          <p class="pub-authors">Yizhou Wang, Can Qin, <span class="me">Rongzhe Wei</span>, Yi Xu, Yue Bai, Yun Fu</p>
+          <div class="pub-meta">
+            <span class="pub-venue">TKDE 2024</span>
+            <div class="pub-links"><a href="https://ieeexplore.ieee.org/document/10645289" target="_blank">Arxiv</a></div>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <h4 class="pub-title">Understanding Non-linearity in Graph Neural Networks from the Bayesian-Inference Perspective</h4>
+          <p class="pub-authors"><span class="me">Rongzhe Wei</span>, Haoteng Yin, Junteng Jia, Austin R. Benson, Pan Li</p>
+          <div class="pub-meta">
+            <span class="pub-venue">NeurIPS 2022</span>
+            <div class="pub-links"><a href="https://arxiv.org/pdf/2207.11311" target="_blank">Arxiv</a></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EXPERIENCE & EDUCATION -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+
+        <!-- Row 1: Experience | Education -->
+        <div class="two-col">
+          <div class="col">
+            <h2 class="section-heading">Experience</h2>
+            <div class="timeline">
+              <div class="tl-item">
+                <div class="tl-date">May — Aug 2025</div>
+                <div class="tl-body">
+                  <h4>Amazon <span class="tl-loc">Seattle, WA</span></h4>
+                  <p>AI Research Intern — Reflection and Exploration-based LLM Action Planning</p>
+                </div>
+              </div>
+              <div class="tl-item">
+                <div class="tl-date">Jun — Aug 2023</div>
+                <div class="tl-body">
+                  <h4>JP Morgan Chase <span class="tl-loc">NYC</span></h4>
+                  <p>AI Research Intern — Graph Data Generation via Margin Relaxed Schrödinger Bridges</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <h2 class="section-heading">Education</h2>
+            <div class="timeline">
+              <div class="tl-item">
+                <div class="tl-date">2021 — Present</div>
+                <div class="tl-body">
+                  <h4>Georgia Institute of Technology</h4>
+                  <p>Ph.D. in Machine Learning (ECE)</p>
+                  <p class="tl-sub">Advisor: <a href="https://sites.google.com/view/panli-purdue/home" target="_blank">Prof. Pan Li</a></p>
+                </div>
+              </div>
+              <div class="tl-item">
+                <div class="tl-date">2017 — 2021</div>
+                <div class="tl-body">
+                  <h4>Xi'an Jiaotong University</h4>
+                  <p>B.S. in Mathematics & Applied Mathematics</p>
+                  <p class="tl-sub">Qian Xuesen College · GPA 3.89/4.00</p>
+                </div>
+              </div>
+              <div class="tl-item">
+                <div class="tl-date">Spring 2020</div>
+                <div class="tl-body">
+                  <h4>Georgia Tech — Visiting</h4>
+                  <p>Honors Student Program, School of Mathematics</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 2: Invited Talks | Honors -->
+        <div class="two-col" style="margin-top: 48px;">
+          <div class="col">
+            <h2 class="section-heading">Invited Talks</h2>
+            <div class="timeline">
+              <div class="tl-item">
+                <div class="tl-date">Feb 2026</div>
+                <div class="tl-body">
+                  <h4>Google Research Seminar</h4>
+                  <p>"From Atomic Facts to Structured Internal Knowledge: Rethinking Unlearning and Jailbreaking in LLMs"</p>
+                </div>
+              </div>
+              <div class="tl-item">
+                <div class="tl-date">Jan 2026</div>
+                <div class="tl-body">
+                  <h4>IBM Research</h4>
+                  <p>"From Atomic Facts to Structured Internal Knowledge: Rethinking Unlearning and Jailbreaking in LLMs"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <h2 class="section-heading">Honors</h2>
+            <ul class="honors-compact">
+              <li><span class="honor-yr">2025</span> CSIP Outstanding Research Award</li>
+              <li><span class="honor-yr">2025</span> Lambda's Research Grant</li>
+              <li><span class="honor-yr">2025</span> OpenAI Researcher Access Grant</li>
+              <li><span class="honor-yr">2022</span> NeurIPS Travel Award</li>
+              <li><span class="honor-yr">2019</span> IEEE BigData Student Award</li>
+              <li>"Zhufeng" Scholarship — First Prize (Ministry of Education)</li>
+              <li>Outstanding Student Award — XJTU</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SERVICES & SKILLS -->
+    <section class="section" id="misc">
+      <div class="container">
+        <div class="two-col">
+          <div class="col">
+            <h2 class="section-heading">Service</h2>
+            <div class="compact-list">
+              <div class="cl-row">
+                <span class="cl-label">Conference</span>
+                <span class="cl-value">NeurIPS '22–25, ICML '24–25, ICLR '25–26, AISTATS '23–24, ISIT '25, AAAI '24, LoG '22–24</span>
+              </div>
+              <div class="cl-row">
+                <span class="cl-label">Journal</span>
+                <span class="cl-value">TMLR, Computers & Math with Applications</span>
+              </div>
+              <div class="cl-row">
+                <span class="cl-label">Teaching</span>
+                <span class="cl-value">Convex Optimization, Probability & Statistics, Conversational AI</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <h2 class="section-heading">Skills</h2>
+            <div class="compact-list">
+              <div class="cl-row">
+                <span class="cl-label">Languages</span>
+                <span class="cl-value">Chinese (native), English</span>
+              </div>
+              <div class="cl-row">
+                <span class="cl-label">Programming</span>
+                <span class="cl-value">Python, C#, MATLAB, C, SQL, HTML/CSS</span>
+              </div>
+              <div class="cl-row">
+                <span class="cl-label">Piano</span>
+                <span class="cl-value">Band 9/9 (Central Conservatory) · Gold Award, China Outstanding Talents Art Festival</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Rongzhe Wei &middot; Georgia Tech</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

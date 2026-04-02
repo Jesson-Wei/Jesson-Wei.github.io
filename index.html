@@ -1,22 +1,25 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rongzhe Wei — ML Researcher @ Georgia Tech</title>
+  <title>Rongzhe Wei &mdash; ML Researcher @ Georgia Tech</title>
   <meta name="description" content="Rongzhe Wei is a PhD candidate in Machine Learning at Georgia Tech, studying trustworthy AI through the lens of structured internal knowledge.">
   <link rel="icon" href="images/favicon.ico">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <!-- NAV -->
   <nav class="nav" id="nav">
     <div class="nav-inner">
-      <a href="#" class="nav-logo">RW</a>
+      <a href="#" class="nav-logo">
+        <span class="nav-logo-mark">RW</span>
+        <span class="nav-logo-text">Rongzhe Wei</span>
+      </a>
       <div class="nav-links" id="navLinks">
         <a href="#about">About</a>
         <a href="#research">Research</a>
@@ -38,39 +41,55 @@
   <!-- HERO -->
   <header class="hero" id="about">
     <div class="container">
-      <div class="hero-layout">
-        <div class="hero-avatar-col">
+      <div class="hero-shell">
+        <div class="hero-layout">
+          <div class="hero-avatar-col">
           <img src="images/personal_photo_magic.png" alt="Rongzhe Wei" class="avatar">
+          <p class="hero-profile-label">Machine Learning &middot; Trustworthy AI</p>
+          <h1 class="hero-name">Rongzhe Wei</h1>
+          <p class="hero-cn">&#39759;&#23481;&#21746;</p>
+          <a class="hero-email" href="mailto:rongzhe.wei@gatech.edu">rongzhe.wei - at - gatech.edu</a>
+          <p class="hero-role">Ph.D. Candidate in Machine Learning</p>
+          <p class="hero-affiliation">Georgia Tech</p>
+          <hr class="hero-divider">
           <div class="hero-social">
-            <a href="mailto:rongzhe.wei@gatech.edu" title="Email">
-              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="assets/Rongzhe_Wei_CV_Feb_2026.pdf" target="_blank" title="CV">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
             </a>
             <a href="https://scholar.google.com/citations?user=FTHUBdAAAAAJ" target="_blank" title="Google Scholar">
-              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
             </a>
             <a href="https://github.com/Jesson-Wei" target="_blank" title="GitHub">
-              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
             </a>
-            <a href="assets/Rongzhe_Wei_CV_Feb_2026.pdf" target="_blank" title="CV">
-              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            <a href="mailto:rongzhe.wei@gatech.edu" title="Email">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
             </a>
           </div>
         </div>
-        <div class="hero-text-col">
-          <h1 class="hero-name">Rongzhe Wei <span class="hero-cn">魏容哲</span></h1>
-          <p class="hero-role">Ph.D. Candidate in Machine Learning, Georgia Tech</p>
-          <p class="hero-tagline">I study trustworthy AI through the lens of structured internal knowledge.</p>
-          <p class="hero-bio">
-            Fifth-year PhD student advised by <a href="https://sites.google.com/view/panli-purdue/home" target="_blank">Prof. Pan Li</a>.
-            My research explores how language models store, retrieve, forget, and exploit knowledge —
-            spanning LLM unlearning, AI safety, and agentic reasoning, with foundations in graph learning and differential privacy.
-          </p>
-          <div class="hero-tags">
-            <span class="research-tag">LLM Unlearning</span>
-            <span class="research-tag">AI Safety & Jailbreaking</span>
-            <span class="research-tag">Agentic AI</span>
-            <span class="research-tag">Graph Learning</span>
-            <span class="research-tag">Differential Privacy</span>
+          <div class="hero-text-col">
+            <p class="hero-kicker">Researching how language models remember, forget, and reason</p>
+            <h2 class="hero-display">Trustworthy AI through the lens of structured internal knowledge.</h2>
+            <p class="hero-bio">
+              I am a fifth-year PhD student at Georgia Tech advised by <a href="https://sites.google.com/view/panli-purdue/home" target="_blank">Prof. Pan Li</a>.
+              My research explores how language models store, retrieve, forget, and exploit knowledge.
+              Towards that, I am interested in studying trustworthy AI through the lens of structured internal knowledge.
+            </p>
+            <div class="hero-cta-row">
+              <a class="hero-button hero-button-primary" href="assets/Rongzhe_Wei_CV_Feb_2026.pdf" target="_blank">View CV</a>
+              <a class="hero-button hero-button-secondary" href="https://scholar.google.com/citations?user=FTHUBdAAAAAJ" target="_blank">Google Scholar</a>
+              <a class="hero-button hero-button-ghost" href="mailto:rongzhe.wei@gatech.edu">Get in touch</a>
+            </div>
+            <p class="hero-focus-statement">
+              My research spans <strong>LLM unlearning</strong>, <strong>AI safety</strong>, and <strong>agentic reasoning</strong>, with foundations in <strong>graph learning</strong> and <strong>differential privacy</strong>.
+            </p>
+            <p class="hero-bio">Some representative research areas:</p>
+            <ul class="hero-interests">
+              <li><strong>LLM Unlearning:</strong> Do LLMs really forget? Probing whether models truly unlearn through knowledge correlation and evaluation.</li>
+              <li><strong>AI Safety & Jailbreaking:</strong> Reformulating LLM jailbreaking as adaptive tree search over correlated knowledge.</li>
+              <li><strong>Agentic AI:</strong> Building intelligent agents with reasoning and planning capabilities.</li>
+              <li><strong>Graph Learning & Differential Privacy:</strong> Foundations in graph neural networks with privacy guarantees.</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -90,7 +109,7 @@
             <div class="research-card-inner">
               <span class="rc-venue">ICLR'26 Workshop</span>
               <h3 class="rc-title">CKA-Agent</h3>
-              <p class="rc-desc">Reformulating LLM jailbreaking as adaptive tree search over correlated knowledge. Achieves 96–99% success on GPT-5.2, Gemini-3.0-Pro & Claude-Haiku-4.5.</p>
+              <p class="rc-desc">Reformulating LLM jailbreaking as adaptive tree search over correlated knowledge. Achieves 96â€“99% success on GPT-5.2, Gemini-3.0-Pro & Claude-Haiku-4.5.</p>
               <div class="rc-links">
                 <a href="https://arxiv.org/pdf/2512.01353" target="_blank">Paper</a>
                 <a href="https://cka-agent.github.io/" target="_blank">Project</a>
@@ -114,7 +133,7 @@
             <div class="research-card-inner">
               <span class="rc-venue">ICLR 2026</span>
               <h3 class="rc-title">MoEEdit</h3>
-              <p class="rc-desc">Efficient and routing-stable knowledge editing for Mixture-of-Experts LLMs — surgically updating knowledge without disrupting expert routing.</p>
+              <p class="rc-desc">Efficient and routing-stable knowledge editing for Mixture-of-Experts LLMs â€” surgically updating knowledge without disrupting expert routing.</p>
               <div class="rc-links">
               </div>
             </div>
@@ -124,7 +143,7 @@
             <div class="research-card-inner">
               <span class="rc-venue">ICML 2025</span>
               <h3 class="rc-title">Privacy Risks in LLM Unlearning</h3>
-              <p class="rc-desc">Revealing underestimated privacy risks for minority populations in large language model unlearning — showing that current methods disproportionately fail for underrepresented groups.</p>
+              <p class="rc-desc">Revealing underestimated privacy risks for minority populations in large language model unlearning â€” showing that current methods disproportionately fail for underrepresented groups.</p>
               <div class="rc-links">
                 <a href="https://arxiv.org/pdf/2412.08559" target="_blank">Paper</a>
               </div>
@@ -146,7 +165,7 @@
             <span class="hl-icon">&#127942;</span>
             <div>
               <strong>NAIRR Pilot Award</strong>
-              <p>Proposal lead author — recognized for "high degree of alignment with national AI strategic focus."</p>
+              <p>Proposal lead author â€” recognized for "high degree of alignment with national AI strategic focus."</p>
             </div>
           </div>
           <div class="highlight-card">
@@ -174,7 +193,7 @@
           </div>
           <div class="news-item">
             <span class="news-date">Feb 2026</span>
-            <p>Proposal Lead Author: <em>"Structured-Knowledge-Guided Agentic LLM Jailbreaking and Defense"</em> — <strong>NAIRR Pilot Award</strong>.</p>
+            <p>Proposal Lead Author: <em>"Structured-Knowledge-Guided Agentic LLM Jailbreaking and Defense"</em> â€” <strong>NAIRR Pilot Award</strong>.</p>
           </div>
           <div class="news-item">
             <span class="news-date">Jan 2026</span>
@@ -186,7 +205,7 @@
           </div>
           <div class="news-item">
             <span class="news-date">Nov 2025</span>
-            <p>New preprint: <strong>CKA-Agent</strong> achieves 96–99% jailbreak success on frontier LLMs via adaptive tree search. <a href="https://arxiv.org/pdf/2512.01353" target="_blank">Paper</a> · <a href="https://cka-agent.github.io/" target="_blank">Project</a></p>
+            <p>New preprint: <strong>CKA-Agent</strong> achieves 96â€“99% jailbreak success on frontier LLMs via adaptive tree search. <a href="https://arxiv.org/pdf/2512.01353" target="_blank">Paper</a> Â· <a href="https://cka-agent.github.io/" target="_blank">Project</a></p>
           </div>
           <div class="news-item">
             <span class="news-date">Sep 2025</span>
@@ -344,17 +363,17 @@
             <h2 class="section-heading">Experience</h2>
             <div class="timeline">
               <div class="tl-item">
-                <div class="tl-date">May — Aug 2025</div>
+                <div class="tl-date">May â€” Aug 2025</div>
                 <div class="tl-body">
                   <h4>Amazon <span class="tl-loc">Seattle, WA</span></h4>
-                  <p>AI Research Intern — Reflection and Exploration-based LLM Action Planning</p>
+                  <p>AI Research Intern â€” Reflection and Exploration-based LLM Action Planning</p>
                 </div>
               </div>
               <div class="tl-item">
-                <div class="tl-date">Jun — Aug 2023</div>
+                <div class="tl-date">Jun â€” Aug 2023</div>
                 <div class="tl-body">
                   <h4>JP Morgan Chase <span class="tl-loc">NYC</span></h4>
-                  <p>AI Research Intern — Graph Data Generation via Margin Relaxed Schrödinger Bridges</p>
+                  <p>AI Research Intern â€” Graph Data Generation via Margin Relaxed SchrÃ¶dinger Bridges</p>
                 </div>
               </div>
             </div>
@@ -363,7 +382,7 @@
             <h2 class="section-heading">Education</h2>
             <div class="timeline">
               <div class="tl-item">
-                <div class="tl-date">2021 — Present</div>
+                <div class="tl-date">2021 â€” Present</div>
                 <div class="tl-body">
                   <h4>Georgia Institute of Technology</h4>
                   <p>Ph.D. in Machine Learning (ECE)</p>
@@ -371,17 +390,17 @@
                 </div>
               </div>
               <div class="tl-item">
-                <div class="tl-date">2017 — 2021</div>
+                <div class="tl-date">2017 â€” 2021</div>
                 <div class="tl-body">
                   <h4>Xi'an Jiaotong University</h4>
                   <p>B.S. in Mathematics & Applied Mathematics</p>
-                  <p class="tl-sub">Qian Xuesen College · GPA 3.89/4.00</p>
+                  <p class="tl-sub">Qian Xuesen College Â· GPA 3.89/4.00</p>
                 </div>
               </div>
               <div class="tl-item">
                 <div class="tl-date">Spring 2020</div>
                 <div class="tl-body">
-                  <h4>Georgia Tech — Visiting</h4>
+                  <h4>Georgia Tech â€” Visiting</h4>
                   <p>Honors Student Program, School of Mathematics</p>
                 </div>
               </div>
@@ -418,8 +437,8 @@
               <li><span class="honor-yr">2025</span> OpenAI Researcher Access Grant</li>
               <li><span class="honor-yr">2022</span> NeurIPS Travel Award</li>
               <li><span class="honor-yr">2019</span> IEEE BigData Student Award</li>
-              <li>"Zhufeng" Scholarship — First Prize (Ministry of Education)</li>
-              <li>Outstanding Student Award — XJTU</li>
+              <li>"Zhufeng" Scholarship â€” First Prize (Ministry of Education)</li>
+              <li>Outstanding Student Award â€” XJTU</li>
             </ul>
           </div>
         </div>
@@ -436,7 +455,7 @@
             <div class="compact-list">
               <div class="cl-row">
                 <span class="cl-label">Conference</span>
-                <span class="cl-value">NeurIPS '22–25, ICML '24–25, ICLR '25–26, AISTATS '23–24, ISIT '25, AAAI '24, LoG '22–24</span>
+                <span class="cl-value">NeurIPS '22â€“25, ICML '24â€“25, ICLR '25â€“26, AISTATS '23â€“24, ISIT '25, AAAI '24, LoG '22â€“24</span>
               </div>
               <div class="cl-row">
                 <span class="cl-label">Journal</span>
@@ -461,7 +480,7 @@
               </div>
               <div class="cl-row">
                 <span class="cl-label">Piano</span>
-                <span class="cl-value">Band 9/9 (Central Conservatory) · Gold Award, China Outstanding Talents Art Festival</span>
+                <span class="cl-value">Band 9/9 (Central Conservatory) Â· Gold Award, China Outstanding Talents Art Festival</span>
               </div>
             </div>
           </div>
@@ -473,10 +492,12 @@
 
   <footer class="footer">
     <div class="container">
-      <p>&copy; 2025 Rongzhe Wei &middot; Georgia Tech</p>
+      <p>&copy; 2026 Rongzhe Wei &middot; Georgia Tech</p>
     </div>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
+
+

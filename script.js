@@ -70,4 +70,38 @@
       obs.observe(c);
     });
   }
+
+  // Konami code easter egg — invert the palette briefly for a retro nod.
+  var seq = [38,38,40,40,37,39,37,39,66,65], idx = 0;
+  document.addEventListener('keydown', function (e) {
+    if (e.keyCode === seq[idx]) {
+      idx++;
+      if (idx === seq.length) {
+        idx = 0;
+        document.body.classList.toggle('konami');
+      }
+    } else {
+      idx = 0;
+    }
+  });
+
+  // Draw the pixel underlines with a short stroke-dash animation when
+  // their heading first enters the viewport.
+  if ('IntersectionObserver' in window) {
+    var uObs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        var p = e.target.querySelector('path');
+        if (!p) return;
+        var len = p.getTotalLength();
+        p.style.strokeDasharray = len;
+        p.style.strokeDashoffset = len;
+        p.getBoundingClientRect(); // reflow
+        p.style.transition = 'stroke-dashoffset 0.9s cubic-bezier(0.22,1,0.36,1) 0.1s';
+        p.style.strokeDashoffset = 0;
+        uObs.unobserve(e.target);
+      });
+    }, { threshold: 0.4 });
+    document.querySelectorAll('.sketch-underline').forEach(function (s) { uObs.observe(s); });
+  }
 })();

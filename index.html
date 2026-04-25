@@ -9,9 +9,22 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <!-- SKETCH SVG DEFS (hand-drawn decorations reused across page) -->
+  <svg class="sketch-defs" width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+      <filter id="roughen">
+        <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="4"/>
+        <feDisplacementMap in="SourceGraphic" scale="2"/>
+      </filter>
+      <pattern id="dotgrid" width="22" height="22" patternUnits="userSpaceOnUse">
+        <circle cx="1" cy="1" r="1" fill="currentColor" opacity="0.5"/>
+      </pattern>
+    </defs>
+  </svg>
 
   <!-- NAV -->
   <nav class="nav" id="nav">
@@ -44,9 +57,29 @@
       <div class="hero-shell">
         <div class="hero-layout">
           <div class="hero-avatar-col">
-          <img src="images/personal_photo_magic.png" alt="Rongzhe Wei" class="avatar">
-          <p class="hero-profile-label">Machine Learning &middot; Trustworthy AI</p>
-          <h1 class="hero-name">Rongzhe Wei</h1>
+          <div class="avatar-wrap">
+            <span class="pixel-corner pc-tl" aria-hidden="true"></span>
+            <span class="pixel-corner pc-tr" aria-hidden="true"></span>
+            <span class="pixel-corner pc-bl" aria-hidden="true"></span>
+            <span class="pixel-corner pc-br" aria-hidden="true"></span>
+            <img src="images/personal_photo_magic.png" alt="Rongzhe Wei" class="avatar">
+            <div class="scanlines" aria-hidden="true"></div>
+            <svg class="pixel-bot" viewBox="0 0 11 8" shape-rendering="crispEdges" aria-hidden="true">
+              <rect x="2" y="0" width="1" height="1"/><rect x="8" y="0" width="1" height="1"/>
+              <rect x="3" y="1" width="1" height="1"/><rect x="7" y="1" width="1" height="1"/>
+              <rect x="2" y="2" width="7" height="1"/>
+              <rect x="1" y="3" width="2" height="1"/><rect x="4" y="3" width="3" height="1"/><rect x="8" y="3" width="2" height="1"/>
+              <rect x="0" y="4" width="11" height="1"/>
+              <rect x="0" y="5" width="1" height="1"/><rect x="2" y="5" width="7" height="1"/><rect x="10" y="5" width="1" height="1"/>
+              <rect x="0" y="6" width="1" height="1"/><rect x="2" y="6" width="1" height="1"/><rect x="8" y="6" width="1" height="1"/><rect x="10" y="6" width="1" height="1"/>
+              <rect x="3" y="7" width="2" height="1"/><rect x="6" y="7" width="2" height="1"/>
+            </svg>
+            <span class="pixel-label">&gt; MODEL_LOADED<span class="caret">_</span></span>
+          </div>
+          <p class="hero-profile-label">[ Machine Learning &middot; Trustworthy AI ]</p>
+          <h1 class="hero-name">
+            <span class="name-inner">Rongzhe Wei</span><span class="pixel-caret">_</span>
+          </h1>
           <p class="hero-cn">&#39759;&#23481;&#21746;</p>
           <a class="hero-email" href="mailto:rongzhe.wei@gatech.edu">rongzhe.wei - at - gatech.edu</a>
           <p class="hero-role">Ph.D. Candidate in Machine Learning</p>
@@ -68,12 +101,19 @@
           </div>
         </div>
           <div class="hero-text-col">
-            <p class="hero-kicker">Researching how language models remember, forget, and reason</p>
-            <h2 class="hero-display">Building trustworthy AI through structure, reasoning, and control.</h2>
+            <p class="hero-kicker">
+              <svg class="pixel-sparkle" viewBox="0 0 7 7" shape-rendering="crispEdges" aria-hidden="true">
+                <rect x="3" y="0" width="1" height="2"/><rect x="3" y="5" width="1" height="2"/>
+                <rect x="0" y="3" width="2" height="1"/><rect x="5" y="3" width="2" height="1"/>
+                <rect x="3" y="3" width="1" height="1"/>
+              </svg>
+              Researching how language models remember, forget, and reason
+            </p>
+            <h2 class="hero-display">Building <span class="mark mark-yellow">trustworthy AI</span> through <span class="mark mark-blue">structure</span>, <span class="underline-squiggle">reasoning</span>, and <span class="mark mark-pink">control</span>.</h2>
             <p class="hero-bio">
               I am a fifth-year PhD student at Georgia Tech advised by <a href="https://sites.google.com/view/panli-purdue/home" target="_blank">Prof. Pan Li</a>.
-              My research explores how language models store, retrieve, forget, and exploit knowledge.
-              Towards that, I am interested in studying trustworthy AI through the lens of structured internal knowledge.
+              My research explores how language models <em>store</em>, <em>retrieve</em>, <em>forget</em>, and <em>exploit</em> knowledge.
+              Towards that, I am interested in studying trustworthy AI through the lens of <strong class="ink-bold">structured internal knowledge</strong>.
             </p>
             <div class="hero-cta-row">
               <a class="hero-button hero-button-primary" href="assets/Rongzhe_Wei_CV_Feb_2026.pdf" target="_blank">View CV</a>
@@ -98,11 +138,16 @@
 
   <main>
 
+    <!-- sketch divider -->
+    <div class="sketch-divider" aria-hidden="true">
+      <svg viewBox="0 0 1200 40" preserveAspectRatio="none"><path d="M0 20 L 1200 20" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="butt" stroke-dasharray="4 8"/></svg>
+    </div>
+
     <!-- SELECTED RESEARCH -->
     <section class="section" id="research">
       <div class="container">
-        <h2 class="section-heading">Selected Research</h2>
-        <p class="section-lead">Representative projects across my research areas.</p>
+        <h2 class="section-heading"><span>Selected Research</span><svg class="sketch-underline pixel-underline" viewBox="0 0 240 12" aria-hidden="true" preserveAspectRatio="none"><path d="M3 6 L 237 6" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="butt" stroke-dasharray="8 6"/></svg></h2>
+        <p class="section-lead">Representative projects across my research areas. <span class="pixel-tag">[ SELECT_ONE ]</span></p>
         <div class="research-grid">
 
           <div class="research-card">
@@ -155,10 +200,14 @@
       </div>
     </section>
 
+    <div class="sketch-divider sketch-divider-alt" aria-hidden="true">
+      <svg viewBox="0 0 1200 40" preserveAspectRatio="none"><path d="M0 20 L 1200 20" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="butt" stroke-dasharray="4 8"/></svg>
+    </div>
+
     <!-- NEWS -->
     <section class="section section-alt" id="news">
       <div class="container">
-        <h2 class="section-heading">News</h2>
+        <h2 class="section-heading"><span>News</span><svg class="sketch-underline pixel-underline" viewBox="0 0 240 12" aria-hidden="true" preserveAspectRatio="none"><path d="M3 6 L 237 6" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="butt" stroke-dasharray="8 6"/></svg></h2>
 
         <!-- Highlights -->
         <div class="highlights-row">
@@ -224,10 +273,14 @@
       </div>
     </section>
 
+    <div class="sketch-divider" aria-hidden="true">
+      <svg viewBox="0 0 1200 40" preserveAspectRatio="none"><path d="M0 20 L 1200 20" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="butt" stroke-dasharray="4 8"/></svg>
+    </div>
+
     <!-- PUBLICATIONS -->
     <section class="section" id="publications">
       <div class="container">
-        <h2 class="section-heading">Publications</h2>
+        <h2 class="section-heading"><span>Publications</span><svg class="sketch-underline pixel-underline" viewBox="0 0 240 12" aria-hidden="true" preserveAspectRatio="none"><path d="M3 6 L 237 6" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="butt" stroke-dasharray="8 6"/></svg></h2>
         <p class="section-lead">Full list on <a href="https://scholar.google.com/citations?user=FTHUBdAAAAAJ" target="_blank">Google Scholar</a>. * = equal contribution.</p>
 
         <h3 class="pub-group">Preprints</h3>
@@ -434,6 +487,10 @@
       </div>
     </section>
 
+    <div class="sketch-divider sketch-divider-alt" aria-hidden="true">
+      <svg viewBox="0 0 1200 40" preserveAspectRatio="none"><path d="M0 20 L 1200 20" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="butt" stroke-dasharray="4 8"/></svg>
+    </div>
+
     <!-- EXPERIENCE & EDUCATION -->
     <section class="section section-alt" id="experience">
       <div class="container">
@@ -441,7 +498,7 @@
         <!-- Row 1: Experience | Education -->
         <div class="two-col">
           <div class="col">
-            <h2 class="section-heading">Experience</h2>
+            <h2 class="section-heading"><span>Experience</span><svg class="sketch-underline pixel-underline" viewBox="0 0 240 12" aria-hidden="true" preserveAspectRatio="none"><path d="M3 6 L 237 6" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="butt" stroke-dasharray="8 6"/></svg></h2>
             <div class="timeline">
               <div class="tl-item">
                 <div class="tl-date">May &mdash; Aug 2025</div>
@@ -460,7 +517,7 @@
             </div>
           </div>
           <div class="col">
-            <h2 class="section-heading">Education</h2>
+            <h2 class="section-heading"><span>Education</span><svg class="sketch-underline pixel-underline" viewBox="0 0 240 12" aria-hidden="true" preserveAspectRatio="none"><path d="M3 6 L 237 6" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="butt" stroke-dasharray="8 6"/></svg></h2>
             <div class="timeline">
               <div class="tl-item">
                 <div class="tl-date">2021 &mdash; Present</div>
@@ -492,7 +549,7 @@
         <!-- Row 2: Invited Talks | Honors -->
         <div class="two-col" style="margin-top: 48px;">
           <div class="col">
-            <h2 class="section-heading">Invited Talks</h2>
+            <h2 class="section-heading"><span>Invited Talks</span><svg class="sketch-underline pixel-underline" viewBox="0 0 240 12" aria-hidden="true" preserveAspectRatio="none"><path d="M3 6 L 237 6" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="butt" stroke-dasharray="8 6"/></svg></h2>
             <div class="timeline">
               <div class="tl-item">
                 <div class="tl-date">Feb 2026</div>
@@ -511,7 +568,7 @@
             </div>
           </div>
           <div class="col">
-            <h2 class="section-heading">Honors</h2>
+            <h2 class="section-heading"><span>Honors</span><svg class="sketch-underline pixel-underline" viewBox="0 0 240 12" aria-hidden="true" preserveAspectRatio="none"><path d="M3 6 L 237 6" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="butt" stroke-dasharray="8 6"/></svg></h2>
             <ul class="honors-compact">
               <li><span class="honor-yr">2025</span> CSIP Outstanding Research Award</li>
               <li><span class="honor-yr">2025</span> Lambda's Research Grant</li>
@@ -527,12 +584,16 @@
       </div>
     </section>
 
+    <div class="sketch-divider" aria-hidden="true">
+      <svg viewBox="0 0 1200 40" preserveAspectRatio="none"><path d="M0 20 L 1200 20" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="butt" stroke-dasharray="4 8"/></svg>
+    </div>
+
     <!-- SERVICES & SKILLS -->
     <section class="section" id="misc">
       <div class="container">
         <div class="two-col">
           <div class="col">
-            <h2 class="section-heading">Service</h2>
+            <h2 class="section-heading"><span>Service</span><svg class="sketch-underline pixel-underline" viewBox="0 0 240 12" aria-hidden="true" preserveAspectRatio="none"><path d="M3 6 L 237 6" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="butt" stroke-dasharray="8 6"/></svg></h2>
             <div class="compact-list">
               <div class="cl-row">
                 <span class="cl-label">Conference</span>
@@ -549,7 +610,7 @@
             </div>
           </div>
           <div class="col">
-            <h2 class="section-heading">Skills</h2>
+            <h2 class="section-heading"><span>Skills</span><svg class="sketch-underline pixel-underline" viewBox="0 0 240 12" aria-hidden="true" preserveAspectRatio="none"><path d="M3 6 L 237 6" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="butt" stroke-dasharray="8 6"/></svg></h2>
             <div class="compact-list">
               <div class="cl-row">
                 <span class="cl-label">Languages</span>

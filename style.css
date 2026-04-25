@@ -2681,3 +2681,46 @@ svg, .avatar, img.avatar { image-rendering: pixelated; }
 /* Konami code easter egg: flip colors for neon arcade mode */
 body.konami { filter: hue-rotate(180deg) saturate(1.6); }
 
+/* ----- Pixel icons next to section headings ----- */
+.heading-icon {
+  display: inline-block;
+  width: 32px;
+  height: auto;
+  margin: 0 0 6px 16px;
+  vertical-align: middle;
+  fill: var(--accent2);
+  filter: drop-shadow(2px 2px 0 var(--ink));
+  animation: heading-icon-hover 1.4s steps(2) infinite;
+}
+.heading-icon.ic-research { fill: var(--accent); width: 28px; }
+.heading-icon.ic-news     { fill: var(--accent2); animation-delay: 0.15s; width: 30px; }
+.heading-icon.ic-pub      { fill: var(--neon-amber); animation-delay: 0.3s; }
+.heading-icon.ic-exp      { fill: var(--accent2); animation-delay: 0.45s; width: 30px; }
+.heading-icon.ic-edu      { fill: var(--neon-blue); animation-delay: 0.6s; width: 34px; margin-bottom: 10px; }
+.heading-icon.ic-talk     { fill: var(--neon-pink); animation-delay: 0.75s; width: 26px; }
+.heading-icon.ic-honor    { fill: var(--neon-amber); animation-delay: 0.9s; width: 26px; }
+.heading-icon.ic-srv      { fill: var(--accent); animation: heading-icon-spin 8s linear infinite; }
+.heading-icon.ic-skill    { fill: var(--neon-blue); animation-delay: 1.2s; width: 30px; }
+[data-theme="dark"] .heading-icon { filter: drop-shadow(2px 2px 0 var(--accent)); }
+[data-theme="dark"] .heading-icon.ic-research { fill: var(--accent); }
+[data-theme="dark"] .heading-icon.ic-news     { fill: var(--neon-amber); }
+[data-theme="dark"] .heading-icon.ic-pub      { fill: var(--neon-amber); }
+[data-theme="dark"] .heading-icon.ic-exp      { fill: var(--neon-amber); }
+[data-theme="dark"] .heading-icon.ic-edu      { fill: var(--accent); }
+[data-theme="dark"] .heading-icon.ic-talk     { fill: var(--neon-pink); }
+[data-theme="dark"] .heading-icon.ic-honor    { fill: var(--neon-amber); }
+[data-theme="dark"] .heading-icon.ic-srv      { fill: var(--accent); }
+[data-theme="dark"] .heading-icon.ic-skill    { fill: var(--accent); }
+
+@keyframes heading-icon-hover {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-3px); }
+}
+@keyframes heading-icon-spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .heading-icon { animation: none !important; }
+}
+

@@ -2474,12 +2474,12 @@ svg, .avatar, img.avatar { image-rendering: pixelated; }
 .pub-authors .me {
   color: var(--accent2) !important;
   font-weight: 700 !important;
-  background: var(--neon-amber);
-  padding: 0 4px;
-  border: 1px solid var(--ink);
+  background: transparent !important;
+  padding: 0 !important;
+  border: none !important;
 }
 .pub-authors .me::before { content: ''; }
-[data-theme="dark"] .pub-authors .me { border-color: var(--tx); background: var(--neon-amber); color: var(--ink) !important; }
+[data-theme="dark"] .pub-authors .me { color: var(--accent2) !important; }
 
 .pub-venue {
   font-family: var(--pixel) !important;

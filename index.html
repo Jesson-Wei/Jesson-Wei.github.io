@@ -1,15 +1,26 @@
 ﻿<!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-style="academic" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rongzhe Wei &mdash; ML Researcher @ Georgia Tech</title>
   <meta name="description" content="Rongzhe Wei is a PhD candidate in Machine Learning at Georgia Tech, studying trustworthy AI through the lens of structured internal knowledge.">
   <link rel="icon" href="images/favicon.ico">
+  <script>
+    /* Apply the saved display mode before first paint (default: academic). */
+    (function () {
+      try {
+        var m = localStorage.getItem('siteMode');
+        var d = document.documentElement;
+        if (m === 'pixel-light') { d.setAttribute('data-style', 'pixel'); d.setAttribute('data-theme', 'light'); }
+        else if (m === 'pixel-dark') { d.setAttribute('data-style', 'pixel'); d.setAttribute('data-theme', 'dark'); }
+      } catch (e) {}
+    })();
+  </script>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Press+Start+2P&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -35,14 +46,24 @@
       </a>
       <div class="nav-links" id="navLinks">
         <a href="#about">About</a>
-        <a href="#research">Research</a>
         <a href="#news">News</a>
+        <a href="#research">Research</a>
         <a href="#publications">Publications</a>
         <a href="#experience">Experience</a>
         <a href="assets/Rongzhe_Wei_CV.pdf" target="_blank">CV</a>
-        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
-          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <button class="theme-toggle" id="themeToggle" aria-label="Switch display mode">
+          <svg class="icon-pixel" viewBox="0 0 11 8" width="17" height="13" fill="currentColor" shape-rendering="crispEdges" aria-hidden="true">
+            <rect x="2" y="0" width="1" height="1"/><rect x="8" y="0" width="1" height="1"/>
+            <rect x="3" y="1" width="1" height="1"/><rect x="7" y="1" width="1" height="1"/>
+            <rect x="2" y="2" width="7" height="1"/>
+            <rect x="1" y="3" width="2" height="1"/><rect x="4" y="3" width="3" height="1"/><rect x="8" y="3" width="2" height="1"/>
+            <rect x="0" y="4" width="11" height="1"/>
+            <rect x="0" y="5" width="1" height="1"/><rect x="2" y="5" width="7" height="1"/><rect x="10" y="5" width="1" height="1"/>
+            <rect x="0" y="6" width="1" height="1"/><rect x="2" y="6" width="1" height="1"/><rect x="8" y="6" width="1" height="1"/><rect x="10" y="6" width="1" height="1"/>
+            <rect x="3" y="7" width="2" height="1"/><rect x="6" y="7" width="2" height="1"/>
+          </svg>
           <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-academic" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/><path d="M22 10v6"/></svg>
         </button>
       </div>
       <button class="nav-hamburger" id="mobileToggle" aria-label="Menu">
@@ -62,7 +83,8 @@
             <span class="pixel-corner pc-tr" aria-hidden="true"></span>
             <span class="pixel-corner pc-bl" aria-hidden="true"></span>
             <span class="pixel-corner pc-br" aria-hidden="true"></span>
-            <img src="images/personal_photo_magic.png" alt="Rongzhe Wei" class="avatar">
+            <img src="images/personal_photo_visa.png" alt="Rongzhe Wei" class="avatar avatar-academic">
+            <img src="images/personal_photo_magic.png" alt="Rongzhe Wei" class="avatar avatar-pixel">
             <div class="scanlines" aria-hidden="true"></div>
             <svg class="pixel-bot" viewBox="0 0 11 8" shape-rendering="crispEdges" aria-hidden="true">
               <rect x="2" y="0" width="1" height="1"/><rect x="8" y="0" width="1" height="1"/>
@@ -76,6 +98,7 @@
             </svg>
             <span class="pixel-label">&gt; MODEL_LOADED<span class="caret">_</span></span>
           </div>
+          <p class="acad-photo-note">Feel free to reach out!</p>
           <p class="hero-profile-label">[ Machine Learning &middot; Trustworthy AI ]</p>
           <h1 class="hero-name">
             <span class="name-inner">Rongzhe Wei</span><span class="pixel-caret">_</span>
@@ -101,6 +124,10 @@
           </div>
         </div>
           <div class="hero-text-col">
+            <div class="acad-intro">
+              <h1 class="acad-name">Rongzhe Wei <span class="acad-cn">&#39759;&#23481;&#21746;</span></h1>
+              <p class="acad-tagline">Ph.D. Candidate in Machine Learning &middot; Georgia Institute of Technology</p>
+            </div>
             <p class="hero-kicker">
               <svg class="pixel-sparkle" viewBox="0 0 7 7" shape-rendering="crispEdges" aria-hidden="true">
                 <rect x="3" y="0" width="1" height="2"/><rect x="3" y="5" width="1" height="2"/>
@@ -123,6 +150,9 @@
             <p class="hero-focus-statement">
               My research spans <strong>LLM unlearning</strong>, <strong>AI safety</strong>, and <strong>agentic reasoning</strong>, with foundations in <strong>graph learning</strong> and <strong>differential privacy</strong>.
             </p>
+            <p class="hero-focus-statement">
+              Interested in collaborating? Feel free to reach out at <a href="mailto:rongzhe.wei@gatech.edu">rongzhe.wei@gatech.edu</a>.
+            </p>
             <p class="hero-bio">Some representative research areas:</p>
             <ul class="hero-interests">
               <li><strong>LLM Unlearning:</strong> Do LLMs really forget? Probing whether models truly unlearn through knowledge correlation and evaluation.</li>
@@ -143,8 +173,93 @@
       <svg viewBox="0 0 1200 40" preserveAspectRatio="none"><path d="M0 20 L 1200 20" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="butt" stroke-dasharray="4 8"/></svg>
     </div>
 
+    <!-- NEWS -->
+    <section class="section" id="news">
+      <div class="container">
+        <h2 class="section-heading"><span>News</span><svg class="heading-icon ic-news" viewBox="0 0 7 7" shape-rendering="crispEdges" aria-hidden="true"><rect x="4" y="0" width="3" height="1"/><rect x="2" y="1" width="5" height="1"/><rect x="1" y="2" width="6" height="1"/><rect x="0" y="3" width="7" height="1"/><rect x="1" y="4" width="6" height="1"/><rect x="2" y="5" width="5" height="1"/><rect x="4" y="6" width="3" height="1"/></svg><svg class="sketch-underline pixel-underline" viewBox="0 0 240 12" aria-hidden="true" preserveAspectRatio="none"><path d="M3 6 L 237 6" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="butt" stroke-dasharray="8 6"/></svg></h2>
+
+        <!-- Highlights -->
+        <div class="highlights-row">
+          <div class="highlight-card">
+            <span class="hl-icon">&#127942;</span>
+            <div>
+              <strong>NAIRR Pilot Award</strong>
+              <p>Proposal lead author &mdash; recognized for "high degree of alignment with national AI strategic focus."</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <span class="hl-icon">&#127908;</span>
+            <div>
+              <strong>Google Research & IBM Research</strong>
+              <p>Invited talks on rethinking unlearning and jailbreaking in LLMs.</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <span class="hl-icon">&#127941;</span>
+            <div>
+              <strong>CSIP Outstanding Research Award</strong>
+              <p>Fortunate to receive the Georgia Tech CSIP Award for 2025.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline -->
+        <h3 class="news-subheading">Recent Updates</h3>
+        <div class="news-list">
+          <div class="news-item">
+            <span class="news-date">Jul 2026</span>
+            <p>Paper accepted at <strong>COLM 2026</strong>: <em>"GRIP: Algorithm-Agnostic Machine Unlearning for Mixture-of-Experts via Geometric Router Constraints"</em> &mdash; led by my mentored undergraduate intern. <a href="https://arxiv.org/pdf/2601.16905" target="_blank">Paper</a> &middot; <a href="https://github.com/AndyZhu311/GRIP" target="_blank">Code</a></p>
+          </div>
+          <div class="news-item">
+            <span class="news-date">May 2026</span>
+            <p>New preprint (CKA follow-up): <strong>TurnGate</strong> &mdash; <em>"One Turn Too Late: Response-Aware Defense Against Hidden Malicious Intent in Multi-Turn Dialogue"</em>. <a href="https://arxiv.org/pdf/2605.05630" target="_blank">Paper</a> &middot; <a href="https://turn-gate.github.io/" target="_blank">Project</a> &middot; <a href="https://github.com/Graph-COM/TurnGate" target="_blank">Code</a></p>
+          </div>
+          <div class="news-item">
+            <span class="news-date">Apr 2026</span>
+            <p>Paper accepted at <strong>ICML 2026</strong>: <em>"The Trojan Knowledge: Bypassing Commercial LLM Guardrails via Harmless Prompt Weaving and Adaptive Tree Search"</em>. <a href="https://arxiv.org/pdf/2512.01353" target="_blank">Paper</a> &middot; <a href="https://cka-agent.github.io/" target="_blank">Project</a></p>
+          </div>
+          <div class="news-item">
+            <span class="news-date">Feb 2026</span>
+            <p>Invited Talk: <em>"From Atomic Facts to Structured Internal Knowledge: Rethinking Unlearning and Jailbreaking in LLMs"</em> at <strong>Google Research</strong>.</p>
+          </div>
+          <div class="news-item">
+            <span class="news-date">Feb 2026</span>
+            <p>Proposal Lead Author: <em>"Structured-Knowledge-Guided Agentic LLM Jailbreaking and Defense"</em> &mdash; <strong>NAIRR Pilot Award</strong>.</p>
+          </div>
+          <div class="news-item">
+            <span class="news-date">Jan 2026</span>
+            <p>Invited Talk: <em>"From Atomic Facts to Structured Internal Knowledge"</em> at <strong>IBM Research</strong>.</p>
+          </div>
+          <div class="news-item">
+            <span class="news-date">Dec 2025</span>
+            <p>Fortunate to receive the <strong>Georgia Tech CSIP Outstanding Research Award</strong> for 2025.</p>
+          </div>
+          <div class="news-item">
+            <span class="news-date">Nov 2025</span>
+            <p>New preprint: <strong>CKA-Agent</strong> achieves 96&ndash;99% jailbreak success on frontier LLMs via adaptive tree search. <a href="https://arxiv.org/pdf/2512.01353" target="_blank">Paper</a> &middot; <a href="https://cka-agent.github.io/" target="_blank">Project</a></p>
+          </div>
+          <div class="news-item">
+            <span class="news-date">Sep 2025</span>
+            <p>Two papers accepted at <strong>NeurIPS 2025</strong>.</p>
+          </div>
+          <div class="news-item">
+            <span class="news-date">May 2025</span>
+            <p>Two papers accepted at <strong>ICML 2025</strong>.</p>
+          </div>
+          <div class="news-item">
+            <span class="news-date">May 2025</span>
+            <p>Started AI Research Internship at <strong>Amazon</strong>, Seattle.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="sketch-divider sketch-divider-alt" aria-hidden="true">
+      <svg viewBox="0 0 1200 40" preserveAspectRatio="none"><path d="M0 20 L 1200 20" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="butt" stroke-dasharray="4 8"/></svg>
+    </div>
+
     <!-- SELECTED RESEARCH -->
-    <section class="section" id="research">
+    <section class="section section-alt" id="research">
       <div class="container">
         <h2 class="section-heading"><span>Selected Research</span><svg class="heading-icon ic-research" viewBox="0 0 7 9" shape-rendering="crispEdges" aria-hidden="true"><rect x="0" y="0" width="7" height="1"/><rect x="1" y="1" width="1" height="1"/><rect x="5" y="1" width="1" height="1"/><rect x="1" y="2" width="1" height="1"/><rect x="5" y="2" width="1" height="1"/><rect x="1" y="3" width="1" height="1"/><rect x="5" y="3" width="1" height="1"/><rect x="0" y="4" width="2" height="1"/><rect x="5" y="4" width="2" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="6" y="5" width="1" height="1"/><rect x="0" y="6" width="1" height="1"/><rect x="2" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/><rect x="6" y="6" width="1" height="1"/><rect x="0" y="7" width="1" height="1"/><rect x="6" y="7" width="1" height="1"/><rect x="0" y="8" width="7" height="1"/></svg><svg class="sketch-underline pixel-underline" viewBox="0 0 240 12" aria-hidden="true" preserveAspectRatio="none"><path d="M3 6 L 237 6" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="butt" stroke-dasharray="8 6"/></svg></h2>
         <p class="section-lead">Representative projects across my research areas. <span class="pixel-tag">[ SELECT_ONE ]</span></p>
@@ -200,91 +315,6 @@
       </div>
     </section>
 
-    <div class="sketch-divider sketch-divider-alt" aria-hidden="true">
-      <svg viewBox="0 0 1200 40" preserveAspectRatio="none"><path d="M0 20 L 1200 20" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="butt" stroke-dasharray="4 8"/></svg>
-    </div>
-
-    <!-- NEWS -->
-    <section class="section section-alt" id="news">
-      <div class="container">
-        <h2 class="section-heading"><span>News</span><svg class="heading-icon ic-news" viewBox="0 0 7 7" shape-rendering="crispEdges" aria-hidden="true"><rect x="4" y="0" width="3" height="1"/><rect x="2" y="1" width="5" height="1"/><rect x="1" y="2" width="6" height="1"/><rect x="0" y="3" width="7" height="1"/><rect x="1" y="4" width="6" height="1"/><rect x="2" y="5" width="5" height="1"/><rect x="4" y="6" width="3" height="1"/></svg><svg class="sketch-underline pixel-underline" viewBox="0 0 240 12" aria-hidden="true" preserveAspectRatio="none"><path d="M3 6 L 237 6" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="butt" stroke-dasharray="8 6"/></svg></h2>
-
-        <!-- Highlights -->
-        <div class="highlights-row">
-          <div class="highlight-card">
-            <span class="hl-icon">&#127942;</span>
-            <div>
-              <strong>NAIRR Pilot Award</strong>
-              <p>Proposal lead author &mdash; recognized for "high degree of alignment with national AI strategic focus."</p>
-            </div>
-          </div>
-          <div class="highlight-card">
-            <span class="hl-icon">&#127908;</span>
-            <div>
-              <strong>Google Research & IBM Research</strong>
-              <p>Invited talks on rethinking unlearning and jailbreaking in LLMs.</p>
-            </div>
-          </div>
-          <div class="highlight-card">
-            <span class="hl-icon">&#127941;</span>
-            <div>
-              <strong>CSIP Outstanding Research Award</strong>
-              <p>Fortunate to receive the Georgia Tech CSIP Award for 2025.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Timeline -->
-        <h3 class="news-subheading">Recent Updates</h3>
-        <div class="news-list">
-          <div class="news-item">
-            <span class="news-date">Jul 2026</span>
-            <p>Paper accepted at <strong>COLM 2026</strong>: <em>"PRISM: Algorithm-Agnostic Machine Unlearning for Mixture-of-Experts via Geometric Router Constraints"</em>.</p>
-          </div>
-          <div class="news-item">
-            <span class="news-date">May 2026</span>
-            <p>New preprint (CKA follow-up): <strong>TurnGate</strong> &mdash; <em>"One Turn Too Late: Response-Aware Defense Against Hidden Malicious Intent in Multi-Turn Dialogue"</em>. <a href="https://arxiv.org/pdf/2605.05630" target="_blank">Paper</a> &middot; <a href="https://turn-gate.github.io/" target="_blank">Project</a> &middot; <a href="https://github.com/Graph-COM/TurnGate" target="_blank">Code</a></p>
-          </div>
-          <div class="news-item">
-            <span class="news-date">Apr 2026</span>
-            <p>Paper accepted at <strong>ICML 2026</strong>: <em>"The Trojan Knowledge: Bypassing Commercial LLM Guardrails via Harmless Prompt Weaving and Adaptive Tree Search"</em>. <a href="https://arxiv.org/pdf/2512.01353" target="_blank">Paper</a> &middot; <a href="https://cka-agent.github.io/" target="_blank">Project</a></p>
-          </div>
-          <div class="news-item">
-            <span class="news-date">Feb 2026</span>
-            <p>Invited Talk: <em>"From Atomic Facts to Structured Internal Knowledge: Rethinking Unlearning and Jailbreaking in LLMs"</em> at <strong>Google Research</strong>.</p>
-          </div>
-          <div class="news-item">
-            <span class="news-date">Feb 2026</span>
-            <p>Proposal Lead Author: <em>"Structured-Knowledge-Guided Agentic LLM Jailbreaking and Defense"</em> &mdash; <strong>NAIRR Pilot Award</strong>.</p>
-          </div>
-          <div class="news-item">
-            <span class="news-date">Jan 2026</span>
-            <p>Invited Talk: <em>"From Atomic Facts to Structured Internal Knowledge"</em> at <strong>IBM Research</strong>.</p>
-          </div>
-          <div class="news-item">
-            <span class="news-date">Dec 2025</span>
-            <p>Fortunate to receive the <strong>Georgia Tech CSIP Outstanding Research Award</strong> for 2025.</p>
-          </div>
-          <div class="news-item">
-            <span class="news-date">Nov 2025</span>
-            <p>New preprint: <strong>CKA-Agent</strong> achieves 96&ndash;99% jailbreak success on frontier LLMs via adaptive tree search. <a href="https://arxiv.org/pdf/2512.01353" target="_blank">Paper</a> &middot; <a href="https://cka-agent.github.io/" target="_blank">Project</a></p>
-          </div>
-          <div class="news-item">
-            <span class="news-date">Sep 2025</span>
-            <p>Two papers accepted at <strong>NeurIPS 2025</strong>.</p>
-          </div>
-          <div class="news-item">
-            <span class="news-date">May 2025</span>
-            <p>Two papers accepted at <strong>ICML 2025</strong>.</p>
-          </div>
-          <div class="news-item">
-            <span class="news-date">May 2025</span>
-            <p>Started AI Research Internship at <strong>Amazon</strong>, Seattle.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <div class="sketch-divider" aria-hidden="true">
       <svg viewBox="0 0 1200 40" preserveAspectRatio="none"><path d="M0 20 L 1200 20" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="butt" stroke-dasharray="4 8"/></svg>
     </div>
@@ -331,14 +361,18 @@
         <h3 class="pub-group">Conference & Journal Papers</h3>
 
         <div class="pub-item">
-          <a class="pub-thumb" href="#" target="_blank">
-            <img src="images/pub_thumbs/PRISM Algorithm-Agnostic Machine Unlearning for Mixture-of-Experts via Geometric Router Constraints.png" alt="PRISM thumbnail" loading="lazy">
+          <a class="pub-thumb" href="https://arxiv.org/pdf/2601.16905" target="_blank">
+            <img src="images/pub_thumbs/GRIP Algorithm-Agnostic Machine Unlearning for Mixture-of-Experts via Geometric Router Constraints.png" alt="GRIP thumbnail" loading="lazy">
           </a>
           <div class="pub-body">
-            <h4 class="pub-title">PRISM: Algorithm-Agnostic Machine Unlearning for Mixture-of-Experts via Geometric Router Constraints</h4>
+            <h4 class="pub-title">GRIP: Algorithm-Agnostic Machine Unlearning for Mixture-of-Experts via Geometric Router Constraints</h4>
             <p class="pub-authors">Andy Zhu, <span class="me">Rongzhe Wei</span>, Yupu Gu, Pan Li</p>
             <div class="pub-meta">
               <span class="pub-venue">COLM 2026</span>
+              <div class="pub-links">
+                <a href="https://arxiv.org/pdf/2601.16905" target="_blank">Arxiv</a>
+                <a href="https://github.com/AndyZhu311/GRIP" target="_blank">Code</a>
+              </div>
             </div>
           </div>
         </div>

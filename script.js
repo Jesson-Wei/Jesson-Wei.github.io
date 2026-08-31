@@ -4,16 +4,43 @@
 
   var nav = document.getElementById('nav');
 
-  // Theme
+  // Display mode: academic (default) -> pixel light -> pixel dark -> academic
   var toggle = document.getElementById('themeToggle');
   var html = document.documentElement;
-  html.setAttribute('data-theme', localStorage.getItem('theme') || 'light');
+  var MODES = ['academic', 'pixel-light', 'pixel-dark'];
+  var MODE_LABELS = {
+    'academic': 'Switch to pixel mode',
+    'pixel-light': 'Switch to pixel dark mode',
+    'pixel-dark': 'Back to academic mode'
+  };
+
+  function applyMode(m) {
+    if (MODES.indexOf(m) === -1) m = 'academic';
+    if (m === 'pixel-light') {
+      html.setAttribute('data-style', 'pixel');
+      html.setAttribute('data-theme', 'light');
+    } else if (m === 'pixel-dark') {
+      html.setAttribute('data-style', 'pixel');
+      html.setAttribute('data-theme', 'dark');
+    } else {
+      html.setAttribute('data-style', 'academic');
+      html.setAttribute('data-theme', 'light');
+    }
+    if (toggle) {
+      toggle.setAttribute('aria-label', MODE_LABELS[m]);
+      toggle.title = MODE_LABELS[m];
+    }
+    return m;
+  }
+
+  var mode;
+  try { mode = localStorage.getItem('siteMode'); } catch (e) {}
+  mode = applyMode(mode || 'academic');
 
   if (toggle) {
     toggle.addEventListener('click', function () {
-      var next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-      html.setAttribute('data-theme', next);
-      localStorage.setItem('theme', next);
+      mode = applyMode(MODES[(MODES.indexOf(mode) + 1) % MODES.length]);
+      try { localStorage.setItem('siteMode', mode); } catch (e) {}
     });
   }
 

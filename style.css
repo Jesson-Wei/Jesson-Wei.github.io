@@ -3074,6 +3074,7 @@ html[data-style="academic"] .section-lead {
   font-size: 0.9rem;
   color: var(--tx3);
   margin: 4px 0 14px;
+  max-width: none;
 }
 html[data-style="academic"] .section-lead a { color: var(--accent); }
 
